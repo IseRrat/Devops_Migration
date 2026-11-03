@@ -1,0 +1,19 @@
+编号,轨道,阶段,项目,状态,证据路径或URL,说明
+C01,共同,环境,云主机与Docker,PENDING,labs/B-draft/work/e6-241830086-meta/doctor.log,历史E6 doctor因内存退出1；E7 Docker可运行，完整环境及doctor待补
+C02,共同,E5,真实复现与差异,PASS,labs/B-draft/docs/实验报告.md,王佳宝241880446历史成果；缺make真实日志和论文范围已说明
+C03,共同,E6,输入哈希报告日志,PASS,labs/B-draft/work/e6-241830086-meta/evidence-verification.json,241830086历史成果；候选哈希、报告及独立一致性校验通过
+C04,共同,E7,自主扩展测试,PASS,labs/B-draft/services/draft/tests/test_e7_cleanup.py,高吟曦231880168新增；26项服务测试通过，正确容器ID/次数/顺序
+C05,共同,CI,正常失败恢复及artifact,PENDING,https://git.nju.edu.cn/IseRrat/devops/-/jobs/688402,正常E7 Job 688402通过，26项测试及gate成功，artifact上传201；失败/恢复和下载记录仍缺，组合项保留PENDING
+C06,共同,CI,必需检查与实际拒绝合并,PENDING,labs/B-draft/docs/E7_执行与门禁_231880168.md,保护配置和普通账号实际拒绝证据待提供；GitLab课程认可待确认
+B01,B,E5,缺失make及候选来源,PASS,labs/B-draft/work/e5-01/；labs/B-draft/work/candidate/,E5同伴历史证据：提示、原始回复、四版候选和选择原因保留
+B02,B,E6,构建和同镜像运行验证,PASS,labs/B-draft/work/e6-241830086/evidence/result.json,E6同伴历史：首轮MISSING_MAKE，次轮成功，同镜像禁网输出hello E3
+B03,B,E7,五场景与超时清理,PASS,ARCHIVE::work/e7-231880168-20261025T164515Z/gate/gate-result.json,高吟曦本次；完整五场景通过，超时清理No such container日志已复核
+B04,B,E7,完整服务unit-tests,PASS,ARCHIVE::work/e7-build-231880168-20261025T164515Z/unit-tests/stdout.log,26 passed in 0.15s；服务重建与gate均退出0
+B05,B,E7,候选稳定副本及哈希,PASS,labs/B-draft/fixtures/ci-candidates/e6-241830086/,逐字节复用E6候选及来源，success候选SHA256已核对
+C07,共同,CI,最终合并与时间SHA,PENDING,,待提供MR merged状态、时间、merge SHA及目标分支记录
+C08,共同,交付,报告与运行证据备份,PASS,templates/实验报告.md；labs/B-draft/work/backups/E7-231880168/README.md,ARCHIVE= labs/B-draft/work/backups/E7-231880168/e7-231880168-evidence-20261025T165016Z.tar.gz；校验OK，150文件
+C09,共同,版本,本次源码SHA及工具链,PENDING,ARCHIVE::work/e7-build-231880168-20261025T164515Z/image/stdout.log,服务镜像ID已有；当次服务器源码SHA及工具链/环境待补，不用当前HEAD倒推
+C10,共同,安全,本次源码历史及镜像扫描,PASS,https://git.nju.edu.cn/IseRrat/devops/-/jobs/688402,Job trace：173文件含Git历史扫描与服务镜像扫描均未发现问题；独立日志待下载
+D01,B,展示,初始失败和最终程序运行,PASS,ARCHIVE::work/e7-231880168-20261025T164515Z/gate/success/evidence/,可展示缺make原始日志及hello E3，配合镜像ID和trace_id回查
+D02,B,展示,失败MR拒绝及修复合并,PENDING,,CI正常/失败/恢复、保护/拒绝/最终合并证据尚缺
+CI01,B,CI,正常E7作业,PASS,https://git.nju.edu.cn/IseRrat/devops/-/jobs/688402,Job 688402 succeeded；checkout 59beed6f；26 passed；gate正常结束；仅证明E7作业，不代表整条流水线

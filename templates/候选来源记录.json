@@ -1,0 +1,35 @@
+{
+  "provider": "复用E6保存候选；原始生成来源为OpenAI Codex E5对话",
+  "model_version": "未记录，不能声称特定型号",
+  "date": "2026-10-21",
+  "record_updated_date": "2026-10-26",
+  "date_note": "date为E5/E6历史候选日期，非E7重新生成日期",
+  "track": "B / DRAFT",
+  "group": "B04",
+  "stage": "E7复用E6候选",
+  "student_id": "231880168",
+  "path_base": "仓库根目录（当前B-draft实验分支；历史原件中的旧路径保持不变）",
+  "prompt_path": "labs/B-draft/work/e5-01/iter-03/prompt-lean-dependencies.txt",
+  "raw_response_path": "labs/B-draft/work/candidate/model-response.txt",
+  "candidate_path": "labs/B-draft/fixtures/ci-candidates/e6-241830086/Dockerfile",
+  "candidate_sha256": "33aa956254b0615a333f341a0105ac57fb837214ba9a4fc769899912431c6765",
+  "manual_changes": [
+    "E5：从原始回复去除Markdown围栏；网络适配与四轮候选选择见原始provenance，不改写同伴记录",
+    "E6（241830086）：补回FROM中的:3.13-slim标签，保留仓库、digest及依赖，详见E6来源原件",
+    "E7（231880168）：逐字节复制E6 Dockerfile及provenance至稳定fixtures路径，未改动候选正文"
+  ],
+  "selection_reason": "沿用组内E5/E6已验证且有完整来源的候选；本次26项测试及完整真实故障gate通过，不重新完成同伴工作",
+  "is_recorded_replay": true,
+  "replay_note": "运行已保存的组员候选，不进行新模型调用；与CLI --replay选择包内DeepSeek候选不同，本次未选包内候选",
+  "source_records": [
+    "labs/B-draft/work/candidate/provenance.json",
+    "labs/B-draft/work/candidate-e6-241830086/provenance.json",
+    "labs/B-draft/fixtures/ci-candidates/e6-241830086/provenance.json"
+  ],
+  "source_authors": {
+    "E5": "王佳宝 241880446",
+    "E6": "史益瑄 241830086",
+    "E7": "高吟曦 231880168"
+  },
+  "original_candidate_sha256": "0a03a931d3255de73a6a4eea777eb4017848817363e196dc0a00992412e09295"
+}

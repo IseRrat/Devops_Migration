@@ -1,0 +1,2064 @@
+{
+  "branch": "B-draft",
+  "unrelated_backup": "/tmp/b-draft-branch-backup-20261026T152621Z",
+  "original_course_files": 257,
+  "protected_originals_unchanged": 193,
+  "files": [
+    {
+      "previous_course_path": "requirements-dev.in",
+      "current_path": "labs/B-draft/requirements-dev.in",
+      "retained_in_project": true,
+      "sha256_before": "40457296154aab4b3db2e2b9c25d2c6440ae9d9a0752b24f838450f64b1826ae",
+      "sha256_after": "40457296154aab4b3db2e2b9c25d2c6440ae9d9a0752b24f838450f64b1826ae",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "compose.yaml",
+      "current_path": "labs/B-draft/compose.yaml",
+      "retained_in_project": true,
+      "sha256_before": "6fa5700c027e199e8fe8d1dd0f27666f72786bddb98ae66acad20d3c805a58b1",
+      "sha256_after": "6fa5700c027e199e8fe8d1dd0f27666f72786bddb98ae66acad20d3c805a58b1",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": ".gitignore",
+      "current_path": "labs/B-draft/.gitignore",
+      "retained_in_project": true,
+      "sha256_before": "859394308763da0fe011392d71c968a030f408e203b9ee2db996b0986db3be39",
+      "sha256_after": "2b230e5a83a21aac1fc0fc98bd0ecb40fd39510b5974a87c1859208429bcf1b3",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "README.md",
+      "current_path": "README.md",
+      "retained_in_project": true,
+      "sha256_before": "b33665eeffabe893e9d68cc64ed098c3784dd7ba353afa6fd98ed4f2a00cae43",
+      "sha256_after": "698b34d9caf075996985826100f0ca334f28dc5be2fad16801663fbf0840334f",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "requirements-dev.lock",
+      "current_path": "labs/B-draft/requirements-dev.lock",
+      "retained_in_project": true,
+      "sha256_before": "24f54d917487599d98e13c5733a75ca4a86652fa11cdccaf863c08e1cc66f5df",
+      "sha256_after": "24f54d917487599d98e13c5733a75ca4a86652fa11cdccaf863c08e1cc66f5df",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "Makefile",
+      "current_path": "labs/B-draft/Makefile",
+      "retained_in_project": true,
+      "sha256_before": "b942ec265d0230bf0ef35edeceef02aec062798fd99835b8a29b246e0991ad40",
+      "sha256_after": "b942ec265d0230bf0ef35edeceef02aec062798fd99835b8a29b246e0991ad40",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": ".dockerignore",
+      "current_path": "labs/B-draft/.dockerignore",
+      "retained_in_project": true,
+      "sha256_before": "36c8bef3f8f167d6a5baf31b11e29af616b54236a264724dc5b81be49141ac3f",
+      "sha256_after": "95e4841e1f3c6aa4c8899c8e2f342433c32afa0ff55d055a1fc90d92aec0431d",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": ".env.example",
+      "current_path": "labs/B-draft/.env.example",
+      "retained_in_project": true,
+      "sha256_before": "bd800b0f7b18224cf1e6411d6e9a08c0dbbd63e73ece1b4f31b4da9ab5e84ecd",
+      "sha256_after": "bd800b0f7b18224cf1e6411d6e9a08c0dbbd63e73ece1b4f31b4da9ab5e84ecd",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "docs/06_常见问题.md",
+      "current_path": "docs/06_常见问题.md",
+      "retained_in_project": true,
+      "sha256_before": "e5dbc1c46025b54a4b3723fb833e884638b8867021b838c1a4f5ff12ba52590a",
+      "sha256_after": "82c5f65d71915a5f6d3f2f2d6eb124f25acf05b5623dffdbb4da0fd742954fbd",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "docs/验收记录.csv",
+      "current_path": "labs/B-draft/docs/验收记录.csv",
+      "retained_in_project": true,
+      "sha256_before": "44464b56759154d4947f3ecad1a2cb857f061404bfbd2b2e40a320303ceb89e3",
+      "sha256_after": "44464b56759154d4947f3ecad1a2cb857f061404bfbd2b2e40a320303ceb89e3",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "docs/04_GitHub_CI与合并门禁.md",
+      "current_path": "docs/04_GitHub_CI与合并门禁.md",
+      "retained_in_project": true,
+      "sha256_before": "277d0616c0287ca1afbf05a641b0fd0f14df2d76fab3e72b0d1ddcc911bf94f9",
+      "sha256_after": "641b4b620ba3cb7a91394f1deed9762d8b99303b380ffc0300930926ef4cd8c7",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "docs/03_B轨道操作指南.md",
+      "current_path": "docs/03_B轨道操作指南.md",
+      "retained_in_project": true,
+      "sha256_before": "1d86d01f9b3f949de4de52187f2519443f61125afa2e1a69c0574218dbe29f52",
+      "sha256_after": "d78c15a4cc1ef621e0242af2576d787619432cc0ae47edd888cf7b93e130cd54",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "docs/E7_执行与门禁_231880168.md",
+      "current_path": "labs/B-draft/docs/E7_执行与门禁_231880168.md",
+      "retained_in_project": true,
+      "sha256_before": "582966b0408fe715993afe9d6cfd73a01e69f352e2d36c2e48e2c4223c8ca785",
+      "sha256_after": "02cfb4f6dcf13b50028b2bba4d4934bf9f7cceb31fa51d93b06fff804ea79828",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "docs/02_A轨道操作指南.md",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/excluded-A-track/docs/02_A轨道操作指南.md",
+      "retained_in_project": false,
+      "sha256_before": "fe140745f2f935c9ef5cc4699315a4c2b319ff25b3bc88a706a6b697243880ea",
+      "sha256_after": "fe140745f2f935c9ef5cc4699315a4c2b319ff25b3bc88a706a6b697243880ea",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "docs/00_开始与目录.md",
+      "current_path": "docs/00_开始与目录.md",
+      "retained_in_project": true,
+      "sha256_before": "488a7ade901d227abbfcc345c954bed23244378908681051a32cf417dfb5f7d2",
+      "sha256_after": "a97e1f9990b2f1d917e77d36e584ee184d42024019e69f7934d1a2f7eb4bc194",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "docs/E7_验收记录_231880168.csv",
+      "current_path": "labs/B-draft/docs/E7_验收记录_231880168.csv",
+      "retained_in_project": true,
+      "sha256_before": "b34b1a662a61610384552e488076ba027d65a51bda8bd5c9a1d5db056572ca8e",
+      "sha256_after": "b34b1a662a61610384552e488076ba027d65a51bda8bd5c9a1d5db056572ca8e",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "docs/01_云主机环境与上传.md",
+      "current_path": "docs/01_云主机环境与上传.md",
+      "retained_in_project": true,
+      "sha256_before": "b43f337d0f561199ada33c2817de144f89a5eadc3a4eb70b6c1ecc904b257da1",
+      "sha256_after": "40c8d28aeb2e9b42ff28492a4db9367cc225d0f482d68f7cc331f7d12712ea85",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "docs/E7_实验报告_231880168.md",
+      "current_path": "labs/B-draft/docs/E7_实验报告_231880168.md",
+      "retained_in_project": true,
+      "sha256_before": "b5ba4c058eedf2fa7c1cb4393a8bf65bb9ebaa9987994443c79e06be72ca3605",
+      "sha256_after": "a49695583467b6cec94df916f1cd36710a25b0cc6474dafd4156512f11b28366",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "docs/05_验收清单.md",
+      "current_path": "docs/05_验收清单.md",
+      "retained_in_project": true,
+      "sha256_before": "ce2e825d4716862466d4d975d82a29da4414298eef73cf6a39aff667807a7b63",
+      "sha256_after": "e677ef8aaeb8117086f7c26f8db93c6374ab084a206020e56a5d0ffd3499d56b",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "docs/实验报告.md",
+      "current_path": "labs/B-draft/docs/实验报告.md",
+      "retained_in_project": true,
+      "sha256_before": "8845c1c551aa9e90399fe1ed1561fd474bd5e7faee7c3a65fbba49e3aa686887",
+      "sha256_after": "8845c1c551aa9e90399fe1ed1561fd474bd5e7faee7c3a65fbba49e3aa686887",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "docs/E6_实验报告_241830086.md",
+      "current_path": "labs/B-draft/docs/E6_实验报告_241830086.md",
+      "retained_in_project": true,
+      "sha256_before": "8bb44457ea4911dd370756af163f47c862e2980b9c788b1a8b4d42d5729ce358",
+      "sha256_after": "8bb44457ea4911dd370756af163f47c862e2980b9c788b1a8b4d42d5729ce358",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "docs/context/目录调整说明.md",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/obsolete-layout-context/目录调整说明.md",
+      "retained_in_project": false,
+      "sha256_before": "9a370a3e81ab18bd4c549f9b23a024571513047b1110c40285bb0592218fa340",
+      "sha256_after": "9a370a3e81ab18bd4c549f9b23a024571513047b1110c40285bb0592218fa340",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "docs/context/目录迁移清单.json",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/obsolete-layout-context/目录迁移清单.json",
+      "retained_in_project": false,
+      "sha256_before": "62f548f364c112365f3d25dc4317d6d2f8d35706b233888044bcb9509bc09e6e",
+      "sha256_after": "62f548f364c112365f3d25dc4317d6d2f8d35706b233888044bcb9509bc09e6e",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "docs/context/目录迁移_原跟踪文件.txt",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/obsolete-layout-context/目录迁移_原跟踪文件.txt",
+      "retained_in_project": false,
+      "sha256_before": "97752898c277359dd7f5148a4d4c4cf796564e4bcec5b9b026c139e034d51910",
+      "sha256_after": "97752898c277359dd7f5148a4d4c4cf796564e4bcec5b9b026c139e034d51910",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "docs/context/目录调整验证.json",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/obsolete-layout-context/目录调整验证.json",
+      "retained_in_project": false,
+      "sha256_before": "2a585cbe4a6b1dddd5adffceea0b01551099507e6a496a4de3298ee0683ab847",
+      "sha256_after": "2a585cbe4a6b1dddd5adffceea0b01551099507e6a496a4de3298ee0683ab847",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "待处理/README.md",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/manual-review/README.md",
+      "retained_in_project": false,
+      "sha256_before": "1bb882edbf5dfb1b3685669d83eeb025e77bb7510ac88cfb9046aa4329533e71",
+      "sha256_after": "1bb882edbf5dfb1b3685669d83eeb025e77bb7510ac88cfb9046aa4329533e71",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "待处理/本地缓存/scripts/__pycache__/secret_scan.cpython-310.pyc",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/manual-review/本地缓存/scripts/__pycache__/secret_scan.cpython-310.pyc",
+      "retained_in_project": false,
+      "sha256_before": "b0a5e75a7b65466ccc3dff68b10c28c63f54299d15fe74ced900f49aa6aeaac6",
+      "sha256_after": "b0a5e75a7b65466ccc3dff68b10c28c63f54299d15fe74ced900f49aa6aeaac6",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "待处理/本地缓存/scripts/__pycache__/run_e7_b_gate.cpython-310.pyc",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/manual-review/本地缓存/scripts/__pycache__/run_e7_b_gate.cpython-310.pyc",
+      "retained_in_project": false,
+      "sha256_before": "e52727313635de7360797dba17272687e4430ce312948599d2289e04584edfbf",
+      "sha256_after": "e52727313635de7360797dba17272687e4430ce312948599d2289e04584edfbf",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "待处理/本地缓存/services/draft/tests/__pycache__/test_e7_cleanup.cpython-310.pyc",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/manual-review/本地缓存/services/draft/tests/__pycache__/test_e7_cleanup.cpython-310.pyc",
+      "retained_in_project": false,
+      "sha256_before": "800ce3d4b1541ea638bb5f11dc0a1dfd54f75674481879c40a6102878ef98bfd",
+      "sha256_after": "800ce3d4b1541ea638bb5f11dc0a1dfd54f75674481879c40a6102878ef98bfd",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "待处理/本地缓存/services/draft/tests/__pycache__/test_autobuild.cpython-310.pyc",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/manual-review/本地缓存/services/draft/tests/__pycache__/test_autobuild.cpython-310.pyc",
+      "retained_in_project": false,
+      "sha256_before": "ace6224df582c18e9a2b5e65c6e7536588e7e6c8da61878a1015b46a58dbfbde",
+      "sha256_after": "ace6224df582c18e9a2b5e65c6e7536588e7e6c8da61878a1015b46a58dbfbde",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "待处理/本地缓存/services/draft/tests/__pycache__/test_cli.cpython-310.pyc",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/manual-review/本地缓存/services/draft/tests/__pycache__/test_cli.cpython-310.pyc",
+      "retained_in_project": false,
+      "sha256_before": "3691dadc4fc04ea9e515ff93a764d1a3721b79a5d1310d97a7b2281c2229062c",
+      "sha256_after": "3691dadc4fc04ea9e515ff93a764d1a3721b79a5d1310d97a7b2281c2229062c",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "待处理/本地缓存/services/draft/tests/__pycache__/test_workflow_failures.cpython-310.pyc",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/manual-review/本地缓存/services/draft/tests/__pycache__/test_workflow_failures.cpython-310.pyc",
+      "retained_in_project": false,
+      "sha256_before": "5c479a67da11a417fb26a13efbeac6a3ae1c2a318eff0376d18d89c1998b0a23",
+      "sha256_after": "5c479a67da11a417fb26a13efbeac6a3ae1c2a318eff0376d18d89c1998b0a23",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "待处理/本地缓存/services/draft/draft/__pycache__/cli.cpython-310.pyc",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/manual-review/本地缓存/services/draft/draft/__pycache__/cli.cpython-310.pyc",
+      "retained_in_project": false,
+      "sha256_before": "812c33f44fd3bbff8ebe78c0d59b7ef45e2fe27e7bd494ec6d57f71ff855003a",
+      "sha256_after": "812c33f44fd3bbff8ebe78c0d59b7ef45e2fe27e7bd494ec6d57f71ff855003a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "待处理/本地缓存/services/draft/draft/__pycache__/autobuild.cpython-310.pyc",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/manual-review/本地缓存/services/draft/draft/__pycache__/autobuild.cpython-310.pyc",
+      "retained_in_project": false,
+      "sha256_before": "7d12abcdd5874abb4a631acc547b42cdc8ba74ff7732b78c6f7b10bdb20979de",
+      "sha256_after": "7d12abcdd5874abb4a631acc547b42cdc8ba74ff7732b78c6f7b10bdb20979de",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "待处理/本地缓存/services/draft/draft/__pycache__/smoke.cpython-310.pyc",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/manual-review/本地缓存/services/draft/draft/__pycache__/smoke.cpython-310.pyc",
+      "retained_in_project": false,
+      "sha256_before": "7f3c099670eb55752ff3e53650e6a27499ec2d328ac846bf8e3c6c5669634337",
+      "sha256_after": "7f3c099670eb55752ff3e53650e6a27499ec2d328ac846bf8e3c6c5669634337",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "待处理/本地缓存/services/draft/draft/__pycache__/__init__.cpython-310.pyc",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/manual-review/本地缓存/services/draft/draft/__pycache__/__init__.cpython-310.pyc",
+      "retained_in_project": false,
+      "sha256_before": "fc4c4a8d54be2687f2a8c55d289c9c68b8b091a355c7945740d2bade48ff411f",
+      "sha256_after": "fc4c4a8d54be2687f2a8c55d289c9c68b8b091a355c7945740d2bade48ff411f",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "scripts/prepare_e5_prompts.py",
+      "current_path": "labs/B-draft/scripts/prepare_e5_prompts.py",
+      "retained_in_project": true,
+      "sha256_before": "21063add1f027c977b9208a36bfc505f5808b6fc40ea62314b0dac04bb8a3240",
+      "sha256_after": "21063add1f027c977b9208a36bfc505f5808b6fc40ea62314b0dac04bb8a3240",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "scripts/verify_e6_b_evidence.py",
+      "current_path": "labs/B-draft/scripts/verify_e6_b_evidence.py",
+      "retained_in_project": true,
+      "sha256_before": "5d5fe31da29a6f19b8a457940729bd571882bb0ee702101af121ad4bc4751f4a",
+      "sha256_after": "5d5fe31da29a6f19b8a457940729bd571882bb0ee702101af121ad4bc4751f4a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "scripts/lab_cloud.py",
+      "current_path": "labs/B-draft/scripts/lab_cloud.py",
+      "retained_in_project": true,
+      "sha256_before": "7b18458810390a9ec267c071e99c117b806eb9d80d2c7f519f310ecc127fd4d1",
+      "sha256_after": "7b18458810390a9ec267c071e99c117b806eb9d80d2c7f519f310ecc127fd4d1",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "scripts/run_e7_gitlab.sh",
+      "current_path": "labs/B-draft/scripts/run_e7_gitlab.sh",
+      "retained_in_project": true,
+      "sha256_before": "a711955c0c027e4c5eaf6f7f3ad9694e92ce11e06f9af9fc74bc90705c71f434",
+      "sha256_after": "070c0ce680b3d36653c2186c643715be30f55694612430879a545a2965bf74cd",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "scripts/doctor.py",
+      "current_path": "labs/B-draft/scripts/doctor.py",
+      "retained_in_project": true,
+      "sha256_before": "f2f545e66581cf4b860122941940a60d14daa9eccc628bdf58ad471ff406af47",
+      "sha256_after": "f2f545e66581cf4b860122941940a60d14daa9eccc628bdf58ad471ff406af47",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "scripts/secret_scan.py",
+      "current_path": "labs/B-draft/scripts/secret_scan.py",
+      "retained_in_project": true,
+      "sha256_before": "898219a01581224c5fab2bdbbba23a99aa5e91c8352b5946c4306451d6d8acb8",
+      "sha256_after": "a38dd19cd58bbddd54eb1d65437bd38797295d357996aa4a8d981269e83a74f0",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "scripts/run_e7_b_gate.py",
+      "current_path": "labs/B-draft/scripts/run_e7_b_gate.py",
+      "retained_in_project": true,
+      "sha256_before": "fe30de327a63b33e22cffa4918cdfe9fd79b592ae819b4498f2e004b955b342d",
+      "sha256_after": "fe30de327a63b33e22cffa4918cdfe9fd79b592ae819b4498f2e004b955b342d",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "services/draft/pytest.ini",
+      "current_path": "labs/B-draft/services/draft/pytest.ini",
+      "retained_in_project": true,
+      "sha256_before": "f211820b112f706314629c1055868340301685733ea465af1151e0a92de620cc",
+      "sha256_after": "f211820b112f706314629c1055868340301685733ea465af1151e0a92de620cc",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "services/draft/Dockerfile",
+      "current_path": "labs/B-draft/services/draft/Dockerfile",
+      "retained_in_project": true,
+      "sha256_before": "d713bb26bc134c508600a6a9ae83d4ac52643803d01206773cc145603fa77b32",
+      "sha256_after": "d713bb26bc134c508600a6a9ae83d4ac52643803d01206773cc145603fa77b32",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "services/draft/tests/test_workflow_failures.py",
+      "current_path": "labs/B-draft/services/draft/tests/test_workflow_failures.py",
+      "retained_in_project": true,
+      "sha256_before": "8e5a3602e7ddd8a7b5277cd635d2289c3e3d0cc5c9a41deb37118d18ba2ff51d",
+      "sha256_after": "8e5a3602e7ddd8a7b5277cd635d2289c3e3d0cc5c9a41deb37118d18ba2ff51d",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "services/draft/tests/test_e7_cleanup.py",
+      "current_path": "labs/B-draft/services/draft/tests/test_e7_cleanup.py",
+      "retained_in_project": true,
+      "sha256_before": "82d3d978bbaba1e51176220e7a159d9fc95f514030ef77905f828de4127658a7",
+      "sha256_after": "82d3d978bbaba1e51176220e7a159d9fc95f514030ef77905f828de4127658a7",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "services/draft/tests/test_cli.py",
+      "current_path": "labs/B-draft/services/draft/tests/test_cli.py",
+      "retained_in_project": true,
+      "sha256_before": "36ef3925167826ee4e15ee25f610e2723950af4c31606531b694b24279a71f12",
+      "sha256_after": "36ef3925167826ee4e15ee25f610e2723950af4c31606531b694b24279a71f12",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "services/draft/tests/test_autobuild.py",
+      "current_path": "labs/B-draft/services/draft/tests/test_autobuild.py",
+      "retained_in_project": true,
+      "sha256_before": "13741af248835c26b476a172281950dffb15d0bbf4c3135d12c8a41a891f826d",
+      "sha256_after": "13741af248835c26b476a172281950dffb15d0bbf4c3135d12c8a41a891f826d",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "services/draft/draft/autobuild.py",
+      "current_path": "labs/B-draft/services/draft/draft/autobuild.py",
+      "retained_in_project": true,
+      "sha256_before": "46afe8c9016f78f217372e6cdfef70ed495f9577677806ee87712e49160ff6fd",
+      "sha256_after": "46afe8c9016f78f217372e6cdfef70ed495f9577677806ee87712e49160ff6fd",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "services/draft/draft/__main__.py",
+      "current_path": "labs/B-draft/services/draft/draft/__main__.py",
+      "retained_in_project": true,
+      "sha256_before": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "sha256_after": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "services/draft/draft/cli.py",
+      "current_path": "labs/B-draft/services/draft/draft/cli.py",
+      "retained_in_project": true,
+      "sha256_before": "5d7389655c01143a8428ba0a093ca1f0ad206ba34ea72e6f870df72eb5f92308",
+      "sha256_after": "5d7389655c01143a8428ba0a093ca1f0ad206ba34ea72e6f870df72eb5f92308",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "services/draft/draft/__init__.py",
+      "current_path": "labs/B-draft/services/draft/draft/__init__.py",
+      "retained_in_project": true,
+      "sha256_before": "7c9b461c79148f28c89cc35ada2b7a07d1243fc16c1fe9d6809da3eac0449900",
+      "sha256_after": "7c9b461c79148f28c89cc35ada2b7a07d1243fc16c1fe9d6809da3eac0449900",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "services/draft/draft/smoke.py",
+      "current_path": "labs/B-draft/services/draft/draft/smoke.py",
+      "retained_in_project": true,
+      "sha256_before": "f7df9a45cde12a2311aaeb7e79184c92e94864f5d5f3baeabf8984bc55cf3709",
+      "sha256_after": "f7df9a45cde12a2311aaeb7e79184c92e94864f5d5f3baeabf8984bc55cf3709",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "fixtures/ci-candidates/DeepSeek-E5.Dockerfile",
+      "current_path": "labs/B-draft/fixtures/ci-candidates/DeepSeek-E5.Dockerfile",
+      "retained_in_project": true,
+      "sha256_before": "7ea539765bf3e8d2f1b17213951f934f647b39a396316455938fe44894ea3112",
+      "sha256_after": "7ea539765bf3e8d2f1b17213951f934f647b39a396316455938fe44894ea3112",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "fixtures/ci-candidates/provenance.json",
+      "current_path": "labs/B-draft/fixtures/ci-candidates/provenance.json",
+      "retained_in_project": true,
+      "sha256_before": "e4d5bea93010dd4c34ca5163be593843c4cc7b3dbb728ea7d71f1719ada04224",
+      "sha256_after": "e4d5bea93010dd4c34ca5163be593843c4cc7b3dbb728ea7d71f1719ada04224",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "fixtures/ci-candidates/e6-241830086/provenance.json",
+      "current_path": "labs/B-draft/fixtures/ci-candidates/e6-241830086/provenance.json",
+      "retained_in_project": true,
+      "sha256_before": "8b2193e20cede44fa4bf886aa7219fba2a0b5b79f1a90e4561cd5f4a371d9ab8",
+      "sha256_after": "8b2193e20cede44fa4bf886aa7219fba2a0b5b79f1a90e4561cd5f4a371d9ab8",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "fixtures/ci-candidates/e6-241830086/Dockerfile",
+      "current_path": "labs/B-draft/fixtures/ci-candidates/e6-241830086/Dockerfile",
+      "retained_in_project": true,
+      "sha256_before": "33aa956254b0615a333f341a0105ac57fb837214ba9a4fc769899912431c6765",
+      "sha256_after": "33aa956254b0615a333f341a0105ac57fb837214ba9a4fc769899912431c6765",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "fixtures/draft/Dockerfile.broken",
+      "current_path": "labs/B-draft/fixtures/draft/Dockerfile.broken",
+      "retained_in_project": true,
+      "sha256_before": "c8f44a699752cab0a61c4eefba44ff483f50481bed88293b89ca2ace505b6307",
+      "sha256_after": "c8f44a699752cab0a61c4eefba44ff483f50481bed88293b89ca2ace505b6307",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "fixtures/draft/main.c",
+      "current_path": "labs/B-draft/fixtures/draft/main.c",
+      "retained_in_project": true,
+      "sha256_before": "05f3bcbf50c51513eb01dd78b3a9a4ae0a01115140fed7d1030cc47451807bc1",
+      "sha256_after": "05f3bcbf50c51513eb01dd78b3a9a4ae0a01115140fed7d1030cc47451807bc1",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "fixtures/draft/README.md",
+      "current_path": "labs/B-draft/fixtures/draft/README.md",
+      "retained_in_project": true,
+      "sha256_before": "706f5780103451757caa6327b11159989d0bbcd80688405a25e5f15eaa57c011",
+      "sha256_after": "706f5780103451757caa6327b11159989d0bbcd80688405a25e5f15eaa57c011",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "fixtures/draft/Makefile",
+      "current_path": "labs/B-draft/fixtures/draft/Makefile",
+      "retained_in_project": true,
+      "sha256_before": "7ed3f5b85a10827cf4c177ee9fa9855b1c70166b5339e5da8e81f4decee74cc3",
+      "sha256_after": "7ed3f5b85a10827cf4c177ee9fa9855b1c70166b5339e5da8e81f4decee74cc3",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "fixtures/draft/.dockerignore",
+      "current_path": "labs/B-draft/fixtures/draft/.dockerignore",
+      "retained_in_project": true,
+      "sha256_before": "4e2d01841cd05ae77ebcac6d7ed12f277fc7ab86506a5eb0186d2b7600e6487c",
+      "sha256_after": "4e2d01841cd05ae77ebcac6d7ed12f277fc7ab86506a5eb0186d2b7600e6487c",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "labs/B-draft/README.md",
+      "current_path": "labs/B-draft/README.md",
+      "retained_in_project": true,
+      "sha256_before": "b07e24469820f1f84be8e5d8ff74da49229b9a74df74246dbf4a77e814bdfd34",
+      "sha256_after": "708439143b1b64d14bdd21b481b6b8505722bb0375029683de0fd137e645da5d",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "ci/B-main-protection.json",
+      "current_path": "ci/B-main-protection.json",
+      "retained_in_project": true,
+      "sha256_before": "4b804a8da424da3e55fe5dfee5910f26e634600afb4234a26c275ceda4a279d4",
+      "sha256_after": "4b804a8da424da3e55fe5dfee5910f26e634600afb4234a26c275ceda4a279d4",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "ci/A-main-protection.json",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/excluded-A-track/ci/A-main-protection.json",
+      "retained_in_project": false,
+      "sha256_before": "e21c49dbd10363e6c29f0e568614f1946bc3125e357b024e97ac686175cf321a",
+      "sha256_after": "e21c49dbd10363e6c29f0e568614f1946bc3125e357b024e97ac686175cf321a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "ci/rejection-demo/B/test_ci_reject_demo.py",
+      "current_path": "ci/rejection-demo/B/test_ci_reject_demo.py",
+      "retained_in_project": true,
+      "sha256_before": "3ecaf3d15415895befbde3d31a07213a1b7314fad7b5b1e3c6514834b858591c",
+      "sha256_after": "3ecaf3d15415895befbde3d31a07213a1b7314fad7b5b1e3c6514834b858591c",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "ci/rejection-demo/B/fixed/test_ci_reject_demo.py",
+      "current_path": "ci/rejection-demo/B/fixed/test_ci_reject_demo.py",
+      "retained_in_project": true,
+      "sha256_before": "41b1d752ba91004fd1231e25dadae130ac3c9ce243a6b34b175a7dc5c7b00fcf",
+      "sha256_after": "41b1d752ba91004fd1231e25dadae130ac3c9ce243a6b34b175a7dc5c7b00fcf",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "ci/rejection-demo/A/test_ci_reject_demo.py",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/excluded-A-track/ci/rejection-demo/A/test_ci_reject_demo.py",
+      "retained_in_project": false,
+      "sha256_before": "adbd3c0321e6e645635ccd46acef4cf42f29cfd5f15ca866d3e72fadbc79399b",
+      "sha256_after": "adbd3c0321e6e645635ccd46acef4cf42f29cfd5f15ca866d3e72fadbc79399b",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "ci/rejection-demo/A/fixed/test_ci_reject_demo.py",
+      "current_path": "/tmp/b-draft-branch-backup-20261026T152621Z/excluded-A-track/ci/rejection-demo/A/fixed/test_ci_reject_demo.py",
+      "retained_in_project": false,
+      "sha256_before": "1078111ad0a26cc527030096b841bb2de6493e12407d0bcac100133ae64f091d",
+      "sha256_after": "1078111ad0a26cc527030096b841bb2de6493e12407d0bcac100133ae64f091d",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "ci/github/e7-quality-gate.yml",
+      "current_path": "ci/github/e7-quality-gate.yml",
+      "retained_in_project": true,
+      "sha256_before": "cd008ed516d693b7c1b46844d0aeda8ccc0baf80b37d79318e810650cdf871dd",
+      "sha256_after": "f445ba5c1348093d503995818e48cd85c466ace01c058b3f2c602a23db3bfea9",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "ci/github/README.md",
+      "current_path": "ci/github/README.md",
+      "retained_in_project": true,
+      "sha256_before": "508e4ce02430a2a837963185294c193409e93a0395f671c17a883184680c1386",
+      "sha256_after": "57adad9d8ef1a2f070001becf3f951727655f704b485d7c488e45a08a9dd6096",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "work/candidate-e6-241830086/provenance.json",
+      "current_path": "labs/B-draft/work/candidate-e6-241830086/provenance.json",
+      "retained_in_project": true,
+      "sha256_before": "8b2193e20cede44fa4bf886aa7219fba2a0b5b79f1a90e4561cd5f4a371d9ab8",
+      "sha256_after": "8b2193e20cede44fa4bf886aa7219fba2a0b5b79f1a90e4561cd5f4a371d9ab8",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate-e6-241830086/Dockerfile",
+      "current_path": "labs/B-draft/work/candidate-e6-241830086/Dockerfile",
+      "retained_in_project": true,
+      "sha256_before": "33aa956254b0615a333f341a0105ac57fb837214ba9a4fc769899912431c6765",
+      "sha256_after": "33aa956254b0615a333f341a0105ac57fb837214ba9a4fc769899912431c6765",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-meta/source-commit.txt",
+      "current_path": "labs/B-draft/work/e6-241830086-meta/source-commit.txt",
+      "retained_in_project": true,
+      "sha256_before": "0627e80d79eb339f6fff55a756cd63fce08525962e39de298809ca5a2e66dc8b",
+      "sha256_after": "0627e80d79eb339f6fff55a756cd63fce08525962e39de298809ca5a2e66dc8b",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-meta/secret-scan-exit-code.txt",
+      "current_path": "labs/B-draft/work/e6-241830086-meta/secret-scan-exit-code.txt",
+      "retained_in_project": true,
+      "sha256_before": "d44935350ddbc8e59b0d3459cfb0ace7a5a1d58d26e420a5634f13e4a06277ea",
+      "sha256_after": "d44935350ddbc8e59b0d3459cfb0ace7a5a1d58d26e420a5634f13e4a06277ea",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-meta/doctor-exit-code.txt",
+      "current_path": "labs/B-draft/work/e6-241830086-meta/doctor-exit-code.txt",
+      "retained_in_project": true,
+      "sha256_before": "154a4a230aa7d388db65a819c06b7ad482e3c21bf4e073d2f39cecaae92181b1",
+      "sha256_after": "154a4a230aa7d388db65a819c06b7ad482e3c21bf4e073d2f39cecaae92181b1",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-meta/candidate-sha256-before-run.txt",
+      "current_path": "labs/B-draft/work/e6-241830086-meta/candidate-sha256-before-run.txt",
+      "retained_in_project": true,
+      "sha256_before": "56c7d80bd89b4556ac16ec2d154012262373516abef12e04910f57cf9d145343",
+      "sha256_after": "56c7d80bd89b4556ac16ec2d154012262373516abef12e04910f57cf9d145343",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-meta/git-user-name.txt",
+      "current_path": "labs/B-draft/work/e6-241830086-meta/git-user-name.txt",
+      "retained_in_project": true,
+      "sha256_before": "5fcb0bd11cc834080862e8af0019840bc8793b851e7d8d788e7a9739bb3e507f",
+      "sha256_after": "5fcb0bd11cc834080862e8af0019840bc8793b851e7d8d788e7a9739bb3e507f",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-meta/doctor.log",
+      "current_path": "labs/B-draft/work/e6-241830086-meta/doctor.log",
+      "retained_in_project": true,
+      "sha256_before": "d5f3fc85b8d1039615b325d286e73b6094c157d28f0e681a9d170c5bb509e0e6",
+      "sha256_after": "d5f3fc85b8d1039615b325d286e73b6094c157d28f0e681a9d170c5bb509e0e6",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-meta/secret-scan.txt",
+      "current_path": "labs/B-draft/work/e6-241830086-meta/secret-scan.txt",
+      "retained_in_project": true,
+      "sha256_before": "5d0b882d1c8405b0c4b1c49be2e58d0ebb457d177d07fc77697c445f14386057",
+      "sha256_after": "5d0b882d1c8405b0c4b1c49be2e58d0ebb457d177d07fc77697c445f14386057",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-meta/e6-exit-code.txt",
+      "current_path": "labs/B-draft/work/e6-241830086-meta/e6-exit-code.txt",
+      "retained_in_project": true,
+      "sha256_before": "8599db1072eb52061952e098849c78b3712737fd31dd1a21bd2512c378cc484d",
+      "sha256_after": "8599db1072eb52061952e098849c78b3712737fd31dd1a21bd2512c378cc484d",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-meta/git-user-email.txt",
+      "current_path": "labs/B-draft/work/e6-241830086-meta/git-user-email.txt",
+      "retained_in_project": true,
+      "sha256_before": "6319ae9a90c7ffdeae6fddf6338f34b84242b0ff68ae4fefe0d8c667dc06c7a4",
+      "sha256_after": "6319ae9a90c7ffdeae6fddf6338f34b84242b0ff68ae4fefe0d8c667dc06c7a4",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-meta/staged-files.txt",
+      "current_path": "labs/B-draft/work/e6-241830086-meta/staged-files.txt",
+      "retained_in_project": true,
+      "sha256_before": "f5ccc7cfd899f5022d54afcd05d3a9e733238224e3a5b93bad45087ae644aa02",
+      "sha256_after": "f5ccc7cfd899f5022d54afcd05d3a9e733238224e3a5b93bad45087ae644aa02",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-meta/evidence-verification-exit-code.txt",
+      "current_path": "labs/B-draft/work/e6-241830086-meta/evidence-verification-exit-code.txt",
+      "retained_in_project": true,
+      "sha256_before": "81b32cd5e94e54f756f2e2f9021bdfbbfd2f5fa6d8e36507f43fedef254856e8",
+      "sha256_after": "81b32cd5e94e54f756f2e2f9021bdfbbfd2f5fa6d8e36507f43fedef254856e8",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-meta/build-v2-exit-code.txt",
+      "current_path": "labs/B-draft/work/e6-241830086-meta/build-v2-exit-code.txt",
+      "retained_in_project": true,
+      "sha256_before": "fc3beb873f31f6e5fa3c60700d39e32225de92731e0dbe74545d0b29da3a4279",
+      "sha256_after": "fc3beb873f31f6e5fa3c60700d39e32225de92731e0dbe74545d0b29da3a4279",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-meta/build-stage-exit-code.txt",
+      "current_path": "labs/B-draft/work/e6-241830086-meta/build-stage-exit-code.txt",
+      "retained_in_project": true,
+      "sha256_before": "aab5337b30e304ec986bd270a210d0e71b0b539a47510a7117a4c57f46fe7a96",
+      "sha256_after": "aab5337b30e304ec986bd270a210d0e71b0b539a47510a7117a4c57f46fe7a96",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-meta/evidence-verification.json",
+      "current_path": "labs/B-draft/work/e6-241830086-meta/evidence-verification.json",
+      "retained_in_project": true,
+      "sha256_before": "67badd5f788fb38b5bcd405dd91c853f7bfecd50d55c1c1323c1189adb32631e",
+      "sha256_after": "67badd5f788fb38b5bcd405dd91c853f7bfecd50d55c1c1323c1189adb32631e",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-build-v2/invocation.json",
+      "current_path": "labs/B-draft/work/e6-241830086-build-v2/invocation.json",
+      "retained_in_project": true,
+      "sha256_before": "3d7698d5fab2c6458048ed1352c1a35101afede4f74d2d96a0c7885c2ab8d600",
+      "sha256_after": "3d7698d5fab2c6458048ed1352c1a35101afede4f74d2d96a0c7885c2ab8d600",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-build-v2/build/command.json",
+      "current_path": "labs/B-draft/work/e6-241830086-build-v2/build/command.json",
+      "retained_in_project": true,
+      "sha256_before": "c28c9e080fb366d23be26e00ca8096a4c2a6559f8d289ba72ae228f8b1fa554b",
+      "sha256_after": "c28c9e080fb366d23be26e00ca8096a4c2a6559f8d289ba72ae228f8b1fa554b",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-build-v2/build/stderr.log",
+      "current_path": "labs/B-draft/work/e6-241830086-build-v2/build/stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "349fb782422f14e156501fc0dbd0769eec4a69eb3d4067d3e14c7117d062e38a",
+      "sha256_after": "349fb782422f14e156501fc0dbd0769eec4a69eb3d4067d3e14c7117d062e38a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-build-v2/build/stdout.log",
+      "current_path": "labs/B-draft/work/e6-241830086-build-v2/build/stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-build-v2/build/exit-code.json",
+      "current_path": "labs/B-draft/work/e6-241830086-build-v2/build/exit-code.json",
+      "retained_in_project": true,
+      "sha256_before": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "sha256_after": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-build-v2/image/command.json",
+      "current_path": "labs/B-draft/work/e6-241830086-build-v2/image/command.json",
+      "retained_in_project": true,
+      "sha256_before": "553ee5b661ea58d6ba7f19f2e827ec2d94d21ac9c32bfdfe1047a4fcd2a2b97e",
+      "sha256_after": "553ee5b661ea58d6ba7f19f2e827ec2d94d21ac9c32bfdfe1047a4fcd2a2b97e",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-build-v2/image/stderr.log",
+      "current_path": "labs/B-draft/work/e6-241830086-build-v2/image/stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-build-v2/image/stdout.log",
+      "current_path": "labs/B-draft/work/e6-241830086-build-v2/image/stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "457f5e15c0f3a24e8796d52565d240bb59e1d7c1ad42446282f3658db5f11a55",
+      "sha256_after": "457f5e15c0f3a24e8796d52565d240bb59e1d7c1ad42446282f3658db5f11a55",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-build-v2/image/exit-code.json",
+      "current_path": "labs/B-draft/work/e6-241830086-build-v2/image/exit-code.json",
+      "retained_in_project": true,
+      "sha256_before": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "sha256_after": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-build-v2/unit-tests/command.json",
+      "current_path": "labs/B-draft/work/e6-241830086-build-v2/unit-tests/command.json",
+      "retained_in_project": true,
+      "sha256_before": "aea363c7be071cce7e1b8a387f45a88f429fc119f4019c49ec6aed98bf9c2023",
+      "sha256_after": "aea363c7be071cce7e1b8a387f45a88f429fc119f4019c49ec6aed98bf9c2023",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-build-v2/unit-tests/stderr.log",
+      "current_path": "labs/B-draft/work/e6-241830086-build-v2/unit-tests/stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-build-v2/unit-tests/stdout.log",
+      "current_path": "labs/B-draft/work/e6-241830086-build-v2/unit-tests/stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "45f403ae94e5767ac539c4673307692b482915b3d1a0a341e92e3ca76aaf36df",
+      "sha256_after": "45f403ae94e5767ac539c4673307692b482915b3d1a0a341e92e3ca76aaf36df",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-build-v2/unit-tests/exit-code.json",
+      "current_path": "labs/B-draft/work/e6-241830086-build-v2/unit-tests/exit-code.json",
+      "retained_in_project": true,
+      "sha256_before": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "sha256_after": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/service-container-id.txt",
+      "current_path": "labs/B-draft/work/e6-241830086/service-container-id.txt",
+      "retained_in_project": true,
+      "sha256_before": "01867876bf0669729aa6d8f61c0cd75e4acf232cc9e5e032a4ed2ad705fd5b3a",
+      "sha256_after": "01867876bf0669729aa6d8f61c0cd75e4acf232cc9e5e032a4ed2ad705fd5b3a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/invocation.json",
+      "current_path": "labs/B-draft/work/e6-241830086/invocation.json",
+      "retained_in_project": true,
+      "sha256_before": "bc36f1a1cff95e1c260e119d1f6762bb984c4d2728ff523067944bb0a793e8e8",
+      "sha256_after": "bc36f1a1cff95e1c260e119d1f6762bb984c4d2728ff523067944bb0a793e8e8",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/runner/command.json",
+      "current_path": "labs/B-draft/work/e6-241830086/runner/command.json",
+      "retained_in_project": true,
+      "sha256_before": "9e536123b9f8c07bf94677ca6e647ba2c7af37047ca863f64e23966a82e14c9a",
+      "sha256_after": "9e536123b9f8c07bf94677ca6e647ba2c7af37047ca863f64e23966a82e14c9a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/runner/stderr.log",
+      "current_path": "labs/B-draft/work/e6-241830086/runner/stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/runner/stdout.log",
+      "current_path": "labs/B-draft/work/e6-241830086/runner/stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "9103e1611480b92362adb8a8ba491c5d0852737c6a705b8715c180212f4775f1",
+      "sha256_after": "9103e1611480b92362adb8a8ba491c5d0852737c6a705b8715c180212f4775f1",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/runner/exit-code.json",
+      "current_path": "labs/B-draft/work/e6-241830086/runner/exit-code.json",
+      "retained_in_project": true,
+      "sha256_before": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "sha256_after": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/verify.log",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/verify.log",
+      "retained_in_project": true,
+      "sha256_before": "8e4e09b0c3458c9c59e691c847d4d7484995403e663549d919fac7c2a5823548",
+      "sha256_after": "8e4e09b0c3458c9c59e691c847d4d7484995403e663549d919fac7c2a5823548",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/verify-container-id.txt",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/verify-container-id.txt",
+      "retained_in_project": true,
+      "sha256_before": "7f5e606e4b9c207a2d31e62db4cc2e784aaba11a0f074bd50d90718f91ac41d6",
+      "sha256_after": "7f5e606e4b9c207a2d31e62db4cc2e784aaba11a0f074bd50d90718f91ac41d6",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/verify-stderr.log",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/verify-stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/cleanup.log",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/cleanup.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/cleanup-stderr.log",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/cleanup-stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "64e059888d5b4dfe75b50cc7edb2e90a650f8a267f021bbd9a387a3f95012cf9",
+      "sha256_after": "64e059888d5b4dfe75b50cc7edb2e90a650f8a267f021bbd9a387a3f95012cf9",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/result.json",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/result.json",
+      "retained_in_project": true,
+      "sha256_before": "9103e1611480b92362adb8a8ba491c5d0852737c6a705b8715c180212f4775f1",
+      "sha256_after": "9103e1611480b92362adb8a8ba491c5d0852737c6a705b8715c180212f4775f1",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/project/Dockerfile.broken",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/project/Dockerfile.broken",
+      "retained_in_project": true,
+      "sha256_before": "c8f44a699752cab0a61c4eefba44ff483f50481bed88293b89ca2ace505b6307",
+      "sha256_after": "c8f44a699752cab0a61c4eefba44ff483f50481bed88293b89ca2ace505b6307",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/project/main.c",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/project/main.c",
+      "retained_in_project": true,
+      "sha256_before": "05f3bcbf50c51513eb01dd78b3a9a4ae0a01115140fed7d1030cc47451807bc1",
+      "sha256_after": "05f3bcbf50c51513eb01dd78b3a9a4ae0a01115140fed7d1030cc47451807bc1",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/project/README.md",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/project/README.md",
+      "retained_in_project": true,
+      "sha256_before": "706f5780103451757caa6327b11159989d0bbcd80688405a25e5f15eaa57c011",
+      "sha256_after": "706f5780103451757caa6327b11159989d0bbcd80688405a25e5f15eaa57c011",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/project/Makefile",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/project/Makefile",
+      "retained_in_project": true,
+      "sha256_before": "7ed3f5b85a10827cf4c177ee9fa9855b1c70166b5339e5da8e81f4decee74cc3",
+      "sha256_after": "7ed3f5b85a10827cf4c177ee9fa9855b1c70166b5339e5da8e81f4decee74cc3",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/project/.dockerignore",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/project/.dockerignore",
+      "retained_in_project": true,
+      "sha256_before": "4e2d01841cd05ae77ebcac6d7ed12f277fc7ab86506a5eb0186d2b7600e6487c",
+      "sha256_after": "4e2d01841cd05ae77ebcac6d7ed12f277fc7ab86506a5eb0186d2b7600e6487c",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/iter-02/inspect-stderr.log",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/iter-02/inspect-stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/iter-02/build-stderr.log",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/iter-02/build-stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "710cc0a4d846e7cdc4bdf232ffac531f47c90b015f2c7a58641696b70b3a2f7b",
+      "sha256_after": "710cc0a4d846e7cdc4bdf232ffac531f47c90b015f2c7a58641696b70b3a2f7b",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/iter-02/image-inspect.json",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/iter-02/image-inspect.json",
+      "retained_in_project": true,
+      "sha256_before": "d5ce84cdc50f8950a02605eeedbb42a300530de2eca5a410ada37e4e194f820f",
+      "sha256_after": "d5ce84cdc50f8950a02605eeedbb42a300530de2eca5a410ada37e4e194f820f",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/iter-02/Dockerfile",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/iter-02/Dockerfile",
+      "retained_in_project": true,
+      "sha256_before": "33aa956254b0615a333f341a0105ac57fb837214ba9a4fc769899912431c6765",
+      "sha256_after": "33aa956254b0615a333f341a0105ac57fb837214ba9a4fc769899912431c6765",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/iter-02/build-stdout.log",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/iter-02/build-stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/iter-01/build-stderr.log",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/iter-01/build-stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "c6c4e58e1aff6f11dffa62b48090e9b70731fa412be5fb2ddaeae1686fd6dc70",
+      "sha256_after": "c6c4e58e1aff6f11dffa62b48090e9b70731fa412be5fb2ddaeae1686fd6dc70",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/iter-01/Dockerfile",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/iter-01/Dockerfile",
+      "retained_in_project": true,
+      "sha256_before": "7fca75bcce08b0b55b94b494fd7bfd50e5887f3f0fbb3d1e78ed2b817b1bd70a",
+      "sha256_after": "7fca75bcce08b0b55b94b494fd7bfd50e5887f3f0fbb3d1e78ed2b817b1bd70a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086/evidence/iter-01/build-stdout.log",
+      "current_path": "labs/B-draft/work/e6-241830086/evidence/iter-01/build-stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-02/toolchain.lock",
+      "current_path": "labs/B-draft/work/build-02/toolchain.lock",
+      "retained_in_project": true,
+      "sha256_before": "42f79c804c8c8d6a676d82f31f37aef804fce367381ee014461c7d772fa5f15c",
+      "sha256_after": "42f79c804c8c8d6a676d82f31f37aef804fce367381ee014461c7d772fa5f15c",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-02/invocation.json",
+      "current_path": "labs/B-draft/work/build-02/invocation.json",
+      "retained_in_project": true,
+      "sha256_before": "dc638156924ee684031c97fe4c701e3bfdda35d03762fdb35b422f1e83fb19e6",
+      "sha256_after": "dc638156924ee684031c97fe4c701e3bfdda35d03762fdb35b422f1e83fb19e6",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-02/build/command.json",
+      "current_path": "labs/B-draft/work/build-02/build/command.json",
+      "retained_in_project": true,
+      "sha256_before": "c28c9e080fb366d23be26e00ca8096a4c2a6559f8d289ba72ae228f8b1fa554b",
+      "sha256_after": "c28c9e080fb366d23be26e00ca8096a4c2a6559f8d289ba72ae228f8b1fa554b",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-02/build/stderr.log",
+      "current_path": "labs/B-draft/work/build-02/build/stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "46711e633f8ff45f02bc1ae160cb952ed1769ee0016bf70fe5ce3630d63901c5",
+      "sha256_after": "46711e633f8ff45f02bc1ae160cb952ed1769ee0016bf70fe5ce3630d63901c5",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-02/build/stdout.log",
+      "current_path": "labs/B-draft/work/build-02/build/stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-02/build/exit-code.json",
+      "current_path": "labs/B-draft/work/build-02/build/exit-code.json",
+      "retained_in_project": true,
+      "sha256_before": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "sha256_after": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-02/image/command.json",
+      "current_path": "labs/B-draft/work/build-02/image/command.json",
+      "retained_in_project": true,
+      "sha256_before": "553ee5b661ea58d6ba7f19f2e827ec2d94d21ac9c32bfdfe1047a4fcd2a2b97e",
+      "sha256_after": "553ee5b661ea58d6ba7f19f2e827ec2d94d21ac9c32bfdfe1047a4fcd2a2b97e",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-02/image/stderr.log",
+      "current_path": "labs/B-draft/work/build-02/image/stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-02/image/stdout.log",
+      "current_path": "labs/B-draft/work/build-02/image/stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "8a29b63a0097bf8e8c0caffc007f404ed12f03f5ee1ebf8f28e6856aad91c70a",
+      "sha256_after": "8a29b63a0097bf8e8c0caffc007f404ed12f03f5ee1ebf8f28e6856aad91c70a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-02/image/exit-code.json",
+      "current_path": "labs/B-draft/work/build-02/image/exit-code.json",
+      "retained_in_project": true,
+      "sha256_before": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "sha256_after": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-02/unit-tests/command.json",
+      "current_path": "labs/B-draft/work/build-02/unit-tests/command.json",
+      "retained_in_project": true,
+      "sha256_before": "aea363c7be071cce7e1b8a387f45a88f429fc119f4019c49ec6aed98bf9c2023",
+      "sha256_after": "aea363c7be071cce7e1b8a387f45a88f429fc119f4019c49ec6aed98bf9c2023",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-02/unit-tests/stderr.log",
+      "current_path": "labs/B-draft/work/build-02/unit-tests/stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-02/unit-tests/stdout.log",
+      "current_path": "labs/B-draft/work/build-02/unit-tests/stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "a4d521417dd5fb06ecf58068e60342a774e4b2209db537940c3cc5f3a82f0891",
+      "sha256_after": "a4d521417dd5fb06ecf58068e60342a774e4b2209db537940c3cc5f3a82f0891",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-02/unit-tests/exit-code.json",
+      "current_path": "labs/B-draft/work/build-02/unit-tests/exit-code.json",
+      "retained_in_project": true,
+      "sha256_before": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "sha256_after": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/model-response.txt",
+      "current_path": "labs/B-draft/work/candidate/model-response.txt",
+      "retained_in_project": true,
+      "sha256_before": "0b1ad574c3e0f2c2a492e1a522ed4f0a0f5e8575f6486ded99a0d6e85995ebf4",
+      "sha256_after": "0b1ad574c3e0f2c2a492e1a522ed4f0a0f5e8575f6486ded99a0d6e85995ebf4",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/provenance.json",
+      "current_path": "labs/B-draft/work/candidate/provenance.json",
+      "retained_in_project": true,
+      "sha256_before": "af84e71b2707a371f222d49c91f4ee7119d301cb5a13ead588f9010f5c901057",
+      "sha256_after": "af84e71b2707a371f222d49c91f4ee7119d301cb5a13ead588f9010f5c901057",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/Dockerfile",
+      "current_path": "labs/B-draft/work/candidate/Dockerfile",
+      "retained_in_project": true,
+      "sha256_before": "0a03a931d3255de73a6a4eea777eb4017848817363e196dc0a00992412e09295",
+      "sha256_after": "0a03a931d3255de73a6a4eea777eb4017848817363e196dc0a00992412e09295",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/candidate-03-network-adapted/model-response.txt",
+      "current_path": "labs/B-draft/work/candidate/candidate-03-network-adapted/model-response.txt",
+      "retained_in_project": true,
+      "sha256_before": "b838735ad3d17386e70274f015a0d4c8f619bc8523331db2d7f85cf36240460a",
+      "sha256_after": "b838735ad3d17386e70274f015a0d4c8f619bc8523331db2d7f85cf36240460a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/candidate-03-network-adapted/provenance.json",
+      "current_path": "labs/B-draft/work/candidate/candidate-03-network-adapted/provenance.json",
+      "retained_in_project": true,
+      "sha256_before": "314c45f351b534fe824fbcca76244cb0cf7d6b1a3bace34186f65e071194ff0e",
+      "sha256_after": "314c45f351b534fe824fbcca76244cb0cf7d6b1a3bace34186f65e071194ff0e",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/candidate-03-network-adapted/Dockerfile",
+      "current_path": "labs/B-draft/work/candidate/candidate-03-network-adapted/Dockerfile",
+      "retained_in_project": true,
+      "sha256_before": "441f34e46ccad82fc8bad3501990c49692f697e22f19c8905ded338e70dab941",
+      "sha256_after": "441f34e46ccad82fc8bad3501990c49692f697e22f19c8905ded338e70dab941",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/candidate-02-context-driven/model-response.txt",
+      "current_path": "labs/B-draft/work/candidate/candidate-02-context-driven/model-response.txt",
+      "retained_in_project": true,
+      "sha256_before": "64d4e4072888075f4f02a529a4a871845f63d84a8dd336cc4cc189db3ecf4c5f",
+      "sha256_after": "64d4e4072888075f4f02a529a4a871845f63d84a8dd336cc4cc189db3ecf4c5f",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/candidate-02-context-driven/provenance.json",
+      "current_path": "labs/B-draft/work/candidate/candidate-02-context-driven/provenance.json",
+      "retained_in_project": true,
+      "sha256_before": "7f7f683fe25135b03fc87cff2115dd23d9b52224dd2ca7c3f3b716a9a8a201d0",
+      "sha256_after": "7f7f683fe25135b03fc87cff2115dd23d9b52224dd2ca7c3f3b716a9a8a201d0",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/candidate-02-context-driven/Dockerfile",
+      "current_path": "labs/B-draft/work/candidate/candidate-02-context-driven/Dockerfile",
+      "retained_in_project": true,
+      "sha256_before": "7ea539765bf3e8d2f1b17213951f934f647b39a396316455938fe44894ea3112",
+      "sha256_after": "7ea539765bf3e8d2f1b17213951f934f647b39a396316455938fe44894ea3112",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/candidate-04-lean/model-response.txt",
+      "current_path": "labs/B-draft/work/candidate/candidate-04-lean/model-response.txt",
+      "retained_in_project": true,
+      "sha256_before": "0b1ad574c3e0f2c2a492e1a522ed4f0a0f5e8575f6486ded99a0d6e85995ebf4",
+      "sha256_after": "0b1ad574c3e0f2c2a492e1a522ed4f0a0f5e8575f6486ded99a0d6e85995ebf4",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/candidate-04-lean/provenance.json",
+      "current_path": "labs/B-draft/work/candidate/candidate-04-lean/provenance.json",
+      "retained_in_project": true,
+      "sha256_before": "372f9c05b82c771c50e15d9a78699e8e55e28a6b0a8fece03e7a743c85b9ad9e",
+      "sha256_after": "372f9c05b82c771c50e15d9a78699e8e55e28a6b0a8fece03e7a743c85b9ad9e",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/candidate-04-lean/Dockerfile",
+      "current_path": "labs/B-draft/work/candidate/candidate-04-lean/Dockerfile",
+      "retained_in_project": true,
+      "sha256_before": "0a03a931d3255de73a6a4eea777eb4017848817363e196dc0a00992412e09295",
+      "sha256_after": "0a03a931d3255de73a6a4eea777eb4017848817363e196dc0a00992412e09295",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/candidate-01-error-driven/model-response.txt",
+      "current_path": "labs/B-draft/work/candidate/candidate-01-error-driven/model-response.txt",
+      "retained_in_project": true,
+      "sha256_before": "ef7233ba8468b7031ed1df21a1c455a7da617e2e71530de64f97dae032c8224b",
+      "sha256_after": "ef7233ba8468b7031ed1df21a1c455a7da617e2e71530de64f97dae032c8224b",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/candidate-01-error-driven/provenance.json",
+      "current_path": "labs/B-draft/work/candidate/candidate-01-error-driven/provenance.json",
+      "retained_in_project": true,
+      "sha256_before": "a31790a95c1d98e1e8601acee4271b726d79507052e41365d5cbcc6546778183",
+      "sha256_after": "a31790a95c1d98e1e8601acee4271b726d79507052e41365d5cbcc6546778183",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/candidate/candidate-01-error-driven/Dockerfile",
+      "current_path": "labs/B-draft/work/candidate/candidate-01-error-driven/Dockerfile",
+      "retained_in_project": true,
+      "sha256_before": "fb8994ed4733ab817a6344f42cc3cb085f64fd83062ff8ed15c20f527f7023a2",
+      "sha256_after": "fb8994ed4733ab817a6344f42cc3cb085f64fd83062ff8ed15c20f527f7023a2",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/secret-scan-staged.txt",
+      "current_path": "labs/B-draft/work/e5-01/secret-scan-staged.txt",
+      "retained_in_project": true,
+      "sha256_before": "12faf590c32790ae1a320063e532705b02efb4655b9d1b4c4056e5cf2650cc4a",
+      "sha256_after": "12faf590c32790ae1a320063e532705b02efb4655b9d1b4c4056e5cf2650cc4a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/secret-scan-exit-code.txt",
+      "current_path": "labs/B-draft/work/e5-01/secret-scan-exit-code.txt",
+      "retained_in_project": true,
+      "sha256_before": "d44935350ddbc8e59b0d3459cfb0ace7a5a1d58d26e420a5634f13e4a06277ea",
+      "sha256_after": "d44935350ddbc8e59b0d3459cfb0ace7a5a1d58d26e420a5634f13e4a06277ea",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/verify.log",
+      "current_path": "labs/B-draft/work/e5-01/verify.log",
+      "retained_in_project": true,
+      "sha256_before": "8e4e09b0c3458c9c59e691c847d4d7484995403e663549d919fac7c2a5823548",
+      "sha256_after": "8e4e09b0c3458c9c59e691c847d4d7484995403e663549d919fac7c2a5823548",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/verify-exit-code.txt",
+      "current_path": "labs/B-draft/work/e5-01/verify-exit-code.txt",
+      "retained_in_project": true,
+      "sha256_before": "c772d0cbf688d21a0ba14e5b2254c7f1cd7621a36f710962d161a17b70537052",
+      "sha256_after": "c772d0cbf688d21a0ba14e5b2254c7f1cd7621a36f710962d161a17b70537052",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/doctor-exit-code.txt",
+      "current_path": "labs/B-draft/work/e5-01/doctor-exit-code.txt",
+      "retained_in_project": true,
+      "sha256_before": "154a4a230aa7d388db65a819c06b7ad482e3c21bf4e073d2f39cecaae92181b1",
+      "sha256_after": "154a4a230aa7d388db65a819c06b7ad482e3c21bf4e073d2f39cecaae92181b1",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/doctor.log",
+      "current_path": "labs/B-draft/work/e5-01/doctor.log",
+      "retained_in_project": true,
+      "sha256_before": "3d9c15be3b50cb3691e3853b1ac03817f17c3b3a5b36b7f71d0ebe173cd13d86",
+      "sha256_after": "3d9c15be3b50cb3691e3853b1ac03817f17c3b3a5b36b7f71d0ebe173cd13d86",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/verify-stderr.log",
+      "current_path": "labs/B-draft/work/e5-01/verify-stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/secret-scan-evidence.txt",
+      "current_path": "labs/B-draft/work/e5-01/secret-scan-evidence.txt",
+      "retained_in_project": true,
+      "sha256_before": "80455bbf3316cdf659bc7e69b04fc2dbc885beb3dd0b05a536bade4e30010cc6",
+      "sha256_after": "80455bbf3316cdf659bc7e69b04fc2dbc885beb3dd0b05a536bade4e30010cc6",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/candidate-build-timeout-600.log",
+      "current_path": "labs/B-draft/work/e5-01/candidate-build-timeout-600.log",
+      "retained_in_project": true,
+      "sha256_before": "12ecf8d87d3f165e56186fb61ab67158fd6c017745d5a7e202c23c1b8290a764",
+      "sha256_after": "12ecf8d87d3f165e56186fb61ab67158fd6c017745d5a7e202c23c1b8290a764",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/secret-scan.txt",
+      "current_path": "labs/B-draft/work/e5-01/secret-scan.txt",
+      "retained_in_project": true,
+      "sha256_before": "48333c719a73842882660085a7a4cfb87336ed49ee6fa1e4dad7236ea5ec08fe",
+      "sha256_after": "48333c719a73842882660085a7a4cfb87336ed49ee6fa1e4dad7236ea5ec08fe",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/registry-adaptation.patch",
+      "current_path": "labs/B-draft/work/e5-01/registry-adaptation.patch",
+      "retained_in_project": true,
+      "sha256_before": "8eeeaf8fc1bffb5eb430f8698f2cb73929229c2f49f649c0f1a0296a117c52e6",
+      "sha256_after": "8eeeaf8fc1bffb5eb430f8698f2cb73929229c2f49f649c0f1a0296a117c52e6",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/secret-scan-evidence-exit-code.txt",
+      "current_path": "labs/B-draft/work/e5-01/secret-scan-evidence-exit-code.txt",
+      "retained_in_project": true,
+      "sha256_before": "21d6de20db5d048d405967eee75d33682ea0bc2d45e5c4e74b61f198866b39ea",
+      "sha256_after": "21d6de20db5d048d405967eee75d33682ea0bc2d45e5c4e74b61f198866b39ea",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/input-sha256.txt",
+      "current_path": "labs/B-draft/work/e5-01/input-sha256.txt",
+      "retained_in_project": true,
+      "sha256_before": "82b8ee907763396586282075024fcd25e78598ed802fe13fa89bee99aafdea71",
+      "sha256_after": "82b8ee907763396586282075024fcd25e78598ed802fe13fa89bee99aafdea71",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/image-id.txt",
+      "current_path": "labs/B-draft/work/e5-01/image-id.txt",
+      "retained_in_project": true,
+      "sha256_before": "ef298aeb2b72347fb91ed3de9ea07679db6e1679c5227c57af50dc88956e188f",
+      "sha256_after": "ef298aeb2b72347fb91ed3de9ea07679db6e1679c5227c57af50dc88956e188f",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/candidate-build.log",
+      "current_path": "labs/B-draft/work/e5-01/candidate-build.log",
+      "retained_in_project": true,
+      "sha256_before": "1bc2bb78bc50f1f5ab4241474259a9c8f1cd555d07f3b0f66695966885c18ec2",
+      "sha256_after": "1bc2bb78bc50f1f5ab4241474259a9c8f1cd555d07f3b0f66695966885c18ec2",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/secret-scan-staged-exit-code.txt",
+      "current_path": "labs/B-draft/work/e5-01/secret-scan-staged-exit-code.txt",
+      "retained_in_project": true,
+      "sha256_before": "bb94294934f806dec2b7d191212798786e39954bc5b43f95c7ceea7d8ed051fa",
+      "sha256_after": "bb94294934f806dec2b7d191212798786e39954bc5b43f95c7ceea7d8ed051fa",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/candidate-build-host-network-interrupted.log",
+      "current_path": "labs/B-draft/work/e5-01/candidate-build-host-network-interrupted.log",
+      "retained_in_project": true,
+      "sha256_before": "323a65c3dac714f2876d5ede92617919838c67a31b83edee49ba70de65d62e5d",
+      "sha256_after": "323a65c3dac714f2876d5ede92617919838c67a31b83edee49ba70de65d62e5d",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/candidate-build-default-network-interrupted.log",
+      "current_path": "labs/B-draft/work/e5-01/candidate-build-default-network-interrupted.log",
+      "retained_in_project": true,
+      "sha256_before": "31af996027ca05fb1c64f2f8201fc30457fd40e7b2212defc5db2224c0db8f4a",
+      "sha256_after": "31af996027ca05fb1c64f2f8201fc30457fd40e7b2212defc5db2224c0db8f4a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/candidate-build-exit-code.txt",
+      "current_path": "labs/B-draft/work/e5-01/candidate-build-exit-code.txt",
+      "retained_in_project": true,
+      "sha256_before": "e2011d96c2d5e6dc239db80a50ae098f25e59d5e8394c44c35bd7a108e5078c7",
+      "sha256_after": "e2011d96c2d5e6dc239db80a50ae098f25e59d5e8394c44c35bd7a108e5078c7",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/invocation.json",
+      "current_path": "labs/B-draft/work/e5-01/invocation.json",
+      "retained_in_project": true,
+      "sha256_before": "63a3e040e73ba981e4488ec93b71071a18f942ca3ea49205b79e751d20e7cfb9",
+      "sha256_after": "63a3e040e73ba981e4488ec93b71071a18f942ca3ea49205b79e751d20e7cfb9",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/project/Dockerfile.broken",
+      "current_path": "labs/B-draft/work/e5-01/project/Dockerfile.broken",
+      "retained_in_project": true,
+      "sha256_before": "5c24884b5c48b5476fe19f2596487bb9105093113b3df5428710c841adb9502d",
+      "sha256_after": "5c24884b5c48b5476fe19f2596487bb9105093113b3df5428710c841adb9502d",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/project/main.c",
+      "current_path": "labs/B-draft/work/e5-01/project/main.c",
+      "retained_in_project": true,
+      "sha256_before": "05f3bcbf50c51513eb01dd78b3a9a4ae0a01115140fed7d1030cc47451807bc1",
+      "sha256_after": "05f3bcbf50c51513eb01dd78b3a9a4ae0a01115140fed7d1030cc47451807bc1",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/project/README.md",
+      "current_path": "labs/B-draft/work/e5-01/project/README.md",
+      "retained_in_project": true,
+      "sha256_before": "706f5780103451757caa6327b11159989d0bbcd80688405a25e5f15eaa57c011",
+      "sha256_after": "706f5780103451757caa6327b11159989d0bbcd80688405a25e5f15eaa57c011",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/project/Makefile",
+      "current_path": "labs/B-draft/work/e5-01/project/Makefile",
+      "retained_in_project": true,
+      "sha256_before": "7ed3f5b85a10827cf4c177ee9fa9855b1c70166b5339e5da8e81f4decee74cc3",
+      "sha256_after": "7ed3f5b85a10827cf4c177ee9fa9855b1c70166b5339e5da8e81f4decee74cc3",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/project/.dockerignore",
+      "current_path": "labs/B-draft/work/e5-01/project/.dockerignore",
+      "retained_in_project": true,
+      "sha256_before": "4e2d01841cd05ae77ebcac6d7ed12f277fc7ab86506a5eb0186d2b7600e6487c",
+      "sha256_after": "4e2d01841cd05ae77ebcac6d7ed12f277fc7ab86506a5eb0186d2b7600e6487c",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/iter-03/prompt-lean-dependencies.txt",
+      "current_path": "labs/B-draft/work/e5-01/iter-03/prompt-lean-dependencies.txt",
+      "retained_in_project": true,
+      "sha256_before": "51ce3a3529f059973ce99c62d7b9a81dd62079f18b09ab7f797932da8970934e",
+      "sha256_after": "51ce3a3529f059973ce99c62d7b9a81dd62079f18b09ab7f797932da8970934e",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/iter-02/prompt-network-adapted.txt",
+      "current_path": "labs/B-draft/work/e5-01/iter-02/prompt-network-adapted.txt",
+      "retained_in_project": true,
+      "sha256_before": "6aab032e55b7e94fcb11cbd38be48d4ebd67cc010d2d80abfec32d0737eba712",
+      "sha256_after": "6aab032e55b7e94fcb11cbd38be48d4ebd67cc010d2d80abfec32d0737eba712",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/iter-01/error-localization.json",
+      "current_path": "labs/B-draft/work/e5-01/iter-01/error-localization.json",
+      "retained_in_project": true,
+      "sha256_before": "53d0f524c4b40f117e92b85b1e1f27158a63441035e3f268d64f6b8dce8750ca",
+      "sha256_after": "53d0f524c4b40f117e92b85b1e1f27158a63441035e3f268d64f6b8dce8750ca",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/iter-01/build-retry.log",
+      "current_path": "labs/B-draft/work/e5-01/iter-01/build-retry.log",
+      "retained_in_project": true,
+      "sha256_before": "307e9d4d3d85be7a48bcd17fec804630abe623983de7bc2b50abce550651a04a",
+      "sha256_after": "307e9d4d3d85be7a48bcd17fec804630abe623983de7bc2b50abce550651a04a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/iter-01/result-retry.json",
+      "current_path": "labs/B-draft/work/e5-01/iter-01/result-retry.json",
+      "retained_in_project": true,
+      "sha256_before": "de2b5f8962c2172a3efe750fbb7800433054b63ebb0325fd1280cd972c76893a",
+      "sha256_after": "de2b5f8962c2172a3efe750fbb7800433054b63ebb0325fd1280cd972c76893a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/iter-01/Dockerfile",
+      "current_path": "labs/B-draft/work/e5-01/iter-01/Dockerfile",
+      "retained_in_project": true,
+      "sha256_before": "8ddbde94a49232064432ed6502f1572d6d45044d44b891831116a86533273bcf",
+      "sha256_after": "8ddbde94a49232064432ed6502f1572d6d45044d44b891831116a86533273bcf",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/iter-01/prompt-context-driven.txt",
+      "current_path": "labs/B-draft/work/e5-01/iter-01/prompt-context-driven.txt",
+      "retained_in_project": true,
+      "sha256_before": "75a66f45290d6743c7c5b92503f8dfcbaf9d3f9c2a3ee586f923df7ce25dde0a",
+      "sha256_after": "75a66f45290d6743c7c5b92503f8dfcbaf9d3f9c2a3ee586f923df7ce25dde0a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/iter-01/prompt-error-driven.txt",
+      "current_path": "labs/B-draft/work/e5-01/iter-01/prompt-error-driven.txt",
+      "retained_in_project": true,
+      "sha256_before": "ac4e8b626ea6745a2f4cfd4c67801cac5f0012f5a5fea140addb06b04bf4ea18",
+      "sha256_after": "ac4e8b626ea6745a2f4cfd4c67801cac5f0012f5a5fea140addb06b04bf4ea18",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/iter-01/build/command.json",
+      "current_path": "labs/B-draft/work/e5-01/iter-01/build/command.json",
+      "retained_in_project": true,
+      "sha256_before": "85de9428cd4a0279e797bf8388057580386b9b204540442a132c74d85571cfb5",
+      "sha256_after": "85de9428cd4a0279e797bf8388057580386b9b204540442a132c74d85571cfb5",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/iter-01/build/stderr.log",
+      "current_path": "labs/B-draft/work/e5-01/iter-01/build/stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "a358541d863d79cb3dc28a8d03659df00dcabff9f7f7ac2ccb8b2ebf9b2b8721",
+      "sha256_after": "a358541d863d79cb3dc28a8d03659df00dcabff9f7f7ac2ccb8b2ebf9b2b8721",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/iter-01/build/stdout.log",
+      "current_path": "labs/B-draft/work/e5-01/iter-01/build/stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e5-01/iter-01/build/exit-code.json",
+      "current_path": "labs/B-draft/work/e5-01/iter-01/build/exit-code.json",
+      "retained_in_project": true,
+      "sha256_before": "2618b95f1f6be6bfde8537756f85b83845d039001563135b9d59d817446733eb",
+      "sha256_after": "2618b95f1f6be6bfde8537756f85b83845d039001563135b9d59d817446733eb",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z-build/invocation.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z-build/invocation.json",
+      "retained_in_project": true,
+      "sha256_before": "34fe4a27c05091b1597655aa12160bf6b9a8883ad98de90a40050087698ba872",
+      "sha256_after": "34fe4a27c05091b1597655aa12160bf6b9a8883ad98de90a40050087698ba872",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z-build/build/command.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z-build/build/command.json",
+      "retained_in_project": true,
+      "sha256_before": "c28c9e080fb366d23be26e00ca8096a4c2a6559f8d289ba72ae228f8b1fa554b",
+      "sha256_after": "c28c9e080fb366d23be26e00ca8096a4c2a6559f8d289ba72ae228f8b1fa554b",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z-build/build/stderr.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z-build/build/stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z-build/build/stdout.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z-build/build/stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-01/invocation.json",
+      "current_path": "labs/B-draft/work/build-01/invocation.json",
+      "retained_in_project": true,
+      "sha256_before": "5419c2fbb1a4f6dcfa24a7be0524246b0f0ab4375173375cf8ffd1f17e86fb1a",
+      "sha256_after": "5419c2fbb1a4f6dcfa24a7be0524246b0f0ab4375173375cf8ffd1f17e86fb1a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-01/build/command.json",
+      "current_path": "labs/B-draft/work/build-01/build/command.json",
+      "retained_in_project": true,
+      "sha256_before": "c28c9e080fb366d23be26e00ca8096a4c2a6559f8d289ba72ae228f8b1fa554b",
+      "sha256_after": "c28c9e080fb366d23be26e00ca8096a4c2a6559f8d289ba72ae228f8b1fa554b",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-01/build/stderr.log",
+      "current_path": "labs/B-draft/work/build-01/build/stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "ec8f8d4e1866fbf5d066d82b6bfd8f89d52816f90e96932837df94a6df01f9fb",
+      "sha256_after": "ec8f8d4e1866fbf5d066d82b6bfd8f89d52816f90e96932837df94a6df01f9fb",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-01/build/stdout.log",
+      "current_path": "labs/B-draft/work/build-01/build/stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/build-01/build/exit-code.json",
+      "current_path": "labs/B-draft/work/build-01/build/exit-code.json",
+      "retained_in_project": true,
+      "sha256_before": "2618b95f1f6be6bfde8537756f85b83845d039001563135b9d59d817446733eb",
+      "sha256_after": "2618b95f1f6be6bfde8537756f85b83845d039001563135b9d59d817446733eb",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-evidence-231880168/gitlab-job-688402.log",
+      "current_path": "labs/B-draft/work/e7-evidence-231880168/gitlab-job-688402.log",
+      "retained_in_project": true,
+      "sha256_before": "0e485859a93ebd3916edcfbab54af205355d9326a7cac9711c4b4f3154ceb42a",
+      "sha256_after": "0e485859a93ebd3916edcfbab54af205355d9326a7cac9711c4b4f3154ceb42a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-evidence-231880168/server-build-gate-20261025T164515Z.txt",
+      "current_path": "labs/B-draft/work/e7-evidence-231880168/server-build-gate-20261025T164515Z.txt",
+      "retained_in_project": true,
+      "sha256_before": "03b6f457ee739a514507ae53e52a8460e19eb706b1943885f2e28fe3a67b46d8",
+      "sha256_after": "03b6f457ee739a514507ae53e52a8460e19eb706b1943885f2e28fe3a67b46d8",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z-gate/invocation.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z-gate/invocation.json",
+      "retained_in_project": true,
+      "sha256_before": "c835ecade236c250aceb6578560545f870e2d2f113032fb349e076a70bf39a7b",
+      "sha256_after": "c835ecade236c250aceb6578560545f870e2d2f113032fb349e076a70bf39a7b",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z-gate/driver/command.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z-gate/driver/command.json",
+      "retained_in_project": true,
+      "sha256_before": "5187cc346dc731bc0e656714d98fdaf3245b3c8eda38fb57bee4aee83ccf75ce",
+      "sha256_after": "5187cc346dc731bc0e656714d98fdaf3245b3c8eda38fb57bee4aee83ccf75ce",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z-gate/driver/stderr.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z-gate/driver/stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z-gate/driver/stdout.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z-gate/driver/stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "6a81051ce546b2aa29953b97e09037a3151416bdb815280fbf661b55b97e97ab",
+      "sha256_after": "6a81051ce546b2aa29953b97e09037a3151416bdb815280fbf661b55b97e97ab",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z-gate/driver/exit-code.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z-gate/driver/exit-code.json",
+      "retained_in_project": true,
+      "sha256_before": "2618b95f1f6be6bfde8537756f85b83845d039001563135b9d59d817446733eb",
+      "sha256_after": "2618b95f1f6be6bfde8537756f85b83845d039001563135b9d59d817446733eb",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z-gate/gate/gate-result.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z-gate/gate/gate-result.json",
+      "retained_in_project": true,
+      "sha256_before": "6a81051ce546b2aa29953b97e09037a3151416bdb815280fbf661b55b97e97ab",
+      "sha256_after": "6a81051ce546b2aa29953b97e09037a3151416bdb815280fbf661b55b97e97ab",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z-gate/gate/results.csv",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z-gate/gate/results.csv",
+      "retained_in_project": true,
+      "sha256_before": "16645d45f09532f6a5904e5e30a05937a94fff81c30af355fdc881792deed9d8",
+      "sha256_after": "16645d45f09532f6a5904e5e30a05937a94fff81c30af355fdc881792deed9d8",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z-gate/gate/image/command.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z-gate/gate/image/command.json",
+      "retained_in_project": true,
+      "sha256_before": "553ee5b661ea58d6ba7f19f2e827ec2d94d21ac9c32bfdfe1047a4fcd2a2b97e",
+      "sha256_after": "553ee5b661ea58d6ba7f19f2e827ec2d94d21ac9c32bfdfe1047a4fcd2a2b97e",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z-gate/gate/image/stderr.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z-gate/gate/image/stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z-gate/gate/image/stdout.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z-gate/gate/image/stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-precheck-failed/service-container-id.txt",
+      "current_path": "labs/B-draft/work/e6-241830086-precheck-failed/service-container-id.txt",
+      "retained_in_project": true,
+      "sha256_before": "5fc542cde542e6e4c270bbf591168c16ada8de7978cd0181cddfe7a8f6cf1258",
+      "sha256_after": "5fc542cde542e6e4c270bbf591168c16ada8de7978cd0181cddfe7a8f6cf1258",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-precheck-failed/invocation.json",
+      "current_path": "labs/B-draft/work/e6-241830086-precheck-failed/invocation.json",
+      "retained_in_project": true,
+      "sha256_before": "3dbf3e5d65c6827bc6b63affa25d56971edab5cad502d014acf4852c11211989",
+      "sha256_after": "3dbf3e5d65c6827bc6b63affa25d56971edab5cad502d014acf4852c11211989",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-precheck-failed/runner/command.json",
+      "current_path": "labs/B-draft/work/e6-241830086-precheck-failed/runner/command.json",
+      "retained_in_project": true,
+      "sha256_before": "f11f966f2f095b42adbea6f3acceeb9f597ae3e18c2454bd05a95d1df80c0a01",
+      "sha256_after": "f11f966f2f095b42adbea6f3acceeb9f597ae3e18c2454bd05a95d1df80c0a01",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-precheck-failed/runner/stderr.log",
+      "current_path": "labs/B-draft/work/e6-241830086-precheck-failed/runner/stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-precheck-failed/runner/stdout.log",
+      "current_path": "labs/B-draft/work/e6-241830086-precheck-failed/runner/stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "ddd53396356d0417b64570a3211c8f1781dc1bcc421b29dc76eb4471ce1f1259",
+      "sha256_after": "ddd53396356d0417b64570a3211c8f1781dc1bcc421b29dc76eb4471ce1f1259",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e6-241830086-precheck-failed/runner/exit-code.json",
+      "current_path": "labs/B-draft/work/e6-241830086-precheck-failed/runner/exit-code.json",
+      "retained_in_project": true,
+      "sha256_before": "2618b95f1f6be6bfde8537756f85b83845d039001563135b9d59d817446733eb",
+      "sha256_after": "2618b95f1f6be6bfde8537756f85b83845d039001563135b9d59d817446733eb",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/backups/E7-231880168/e7-231880168-evidence-20261025T165016Z.tar.gz",
+      "current_path": "labs/B-draft/work/backups/E7-231880168/e7-231880168-evidence-20261025T165016Z.tar.gz",
+      "retained_in_project": true,
+      "sha256_before": "ad09223957c6195ecf1ec8155022ff42a64365ec92ef63726c5f50d0e196da0f",
+      "sha256_after": "ad09223957c6195ecf1ec8155022ff42a64365ec92ef63726c5f50d0e196da0f",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/backups/E7-231880168/README.md",
+      "current_path": "labs/B-draft/work/backups/E7-231880168/README.md",
+      "retained_in_project": true,
+      "sha256_before": "19ffa65c1e959d6e3091a5b29b7d0c8ad741b134c2bba721223eb33a4ea2a5dc",
+      "sha256_after": "f9a50bb46bea40b4014dc6d758cc2f34d803a18d02945f38a6a14560bd227a79",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "work/backups/E7-231880168/e7-231880168-evidence-20261025T165016Z.tar.gz.sha256",
+      "current_path": "labs/B-draft/work/backups/E7-231880168/e7-231880168-evidence-20261025T165016Z.tar.gz.sha256",
+      "retained_in_project": true,
+      "sha256_before": "85de8f7b28001b9b7a9c7fb1a42aee8fc246301263d52767ed63cd794a5b8ab3",
+      "sha256_after": "85de8f7b28001b9b7a9c7fb1a42aee8fc246301263d52767ed63cd794a5b8ab3",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/build.stderr.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/build.stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "0b8fe1b2caf29bb368495801455c8717e99462e5b73846fbc913b6453e6b30b9",
+      "sha256_after": "0b8fe1b2caf29bb368495801455c8717e99462e5b73846fbc913b6453e6b30b9",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/gate.stdout.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/gate.stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "1fe045596f90d558c341c986205cdb948302782a237e81775796fc6c8620281d",
+      "sha256_after": "1fe045596f90d558c341c986205cdb948302782a237e81775796fc6c8620281d",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/pytest.command.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/pytest.command.json",
+      "retained_in_project": true,
+      "sha256_before": "1493b9bdd5ff783325a1289947126dace83b3c397a9e9081b2d2ccfcffa8219e",
+      "sha256_after": "1493b9bdd5ff783325a1289947126dace83b3c397a9e9081b2d2ccfcffa8219e",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/pytest.stderr.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/pytest.stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "b72695fcb3e2889d64484497e2ea8079822f1532c2505f226cde970957bedf7d",
+      "sha256_after": "b72695fcb3e2889d64484497e2ea8079822f1532c2505f226cde970957bedf7d",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/shell-syntax.stdout.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/shell-syntax.stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/ruff.command.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/ruff.command.json",
+      "retained_in_project": true,
+      "sha256_before": "618fc6962512e19a66ba6b792e491917448d7a576ea06b54009a1456427d46cb",
+      "sha256_after": "618fc6962512e19a66ba6b792e491917448d7a576ea06b54009a1456427d46cb",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/mypy.command.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/mypy.command.json",
+      "retained_in_project": true,
+      "sha256_before": "61ab819867fb7d1f65b0ed30fc58f4e926a390bb753e8a475bdc84ecdca2d898",
+      "sha256_after": "61ab819867fb7d1f65b0ed30fc58f4e926a390bb753e8a475bdc84ecdca2d898",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/ruff.stderr.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/ruff.stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "f7758e22376bfe467845958d849344e056856a6d21d36f85204acc8872cfde97",
+      "sha256_after": "f7758e22376bfe467845958d849344e056856a6d21d36f85204acc8872cfde97",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/doctor.command.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/doctor.command.json",
+      "retained_in_project": true,
+      "sha256_before": "c413d2a9abd6621cbfb1d3aea4643604e67ebbb71ff62da01de433f7ef4044a7",
+      "sha256_after": "c413d2a9abd6621cbfb1d3aea4643604e67ebbb71ff62da01de433f7ef4044a7",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/gate.stderr.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/gate.stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/doctor.stderr.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/doctor.stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/source-scan.stderr.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/source-scan.stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/shell-syntax.command.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/shell-syntax.command.json",
+      "retained_in_project": true,
+      "sha256_before": "8adaf59f11e5dbc1852b9343fd83196c47d70d31c8a533bf1edf18f19ffe1bbb",
+      "sha256_after": "8adaf59f11e5dbc1852b9343fd83196c47d70d31c8a533bf1edf18f19ffe1bbb",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/build.stdout.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/build.stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "642fa875330f787e7b294fb83a87e6a4192628643f4c2a0322024e3443f274f9",
+      "sha256_after": "642fa875330f787e7b294fb83a87e6a4192628643f4c2a0322024e3443f274f9",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/build.command.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/build.command.json",
+      "retained_in_project": true,
+      "sha256_before": "f3b07168935c67ef247f53ae9f0a66af8b53e8577313d1f97ac481e5add5ff0a",
+      "sha256_after": "f3b07168935c67ef247f53ae9f0a66af8b53e8577313d1f97ac481e5add5ff0a",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/environment.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/environment.json",
+      "retained_in_project": true,
+      "sha256_before": "5daf227bcfe13a31a35496b4c9d897922617b9f1e87d66b773a8425357704411",
+      "sha256_after": "5daf227bcfe13a31a35496b4c9d897922617b9f1e87d66b773a8425357704411",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/doctor.stdout.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/doctor.stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "ffc249a8eb896cffe38af367598054840f60223486de10167a081a504592b564",
+      "sha256_after": "ffc249a8eb896cffe38af367598054840f60223486de10167a081a504592b564",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/mypy.stdout.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/mypy.stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/source-scan-final.stderr.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/source-scan-final.stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/unittest.stdout.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/unittest.stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "81cbef84d6a51c450d9348bd3d462a1da0f109a7376f4d5afc89baad38430112",
+      "sha256_after": "81cbef84d6a51c450d9348bd3d462a1da0f109a7376f4d5afc89baad38430112",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/mypy.stderr.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/mypy.stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "5d5fc2fb16758bcfb267ca7f48b5e370548739647f5279dc59522352692f3a91",
+      "sha256_after": "5d5fc2fb16758bcfb267ca7f48b5e370548739647f5279dc59522352692f3a91",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/source-scan.command.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/source-scan.command.json",
+      "retained_in_project": true,
+      "sha256_before": "ccc4932e319b7065303a1374b30d44c7873295ce2959303492dc182a6679f7c6",
+      "sha256_after": "ccc4932e319b7065303a1374b30d44c7873295ce2959303492dc182a6679f7c6",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/unittest.stderr.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/unittest.stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "34c878dca1054008bd20aeefbc1fe45ad32497db70ca755641b199c96f7da852",
+      "sha256_after": "34c878dca1054008bd20aeefbc1fe45ad32497db70ca755641b199c96f7da852",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/unittest.command.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/unittest.command.json",
+      "retained_in_project": true,
+      "sha256_before": "4ee1852af659c5bcac3668eada5e1b1f35c0d4474544a59630b0b028aec970d9",
+      "sha256_after": "4ee1852af659c5bcac3668eada5e1b1f35c0d4474544a59630b0b028aec970d9",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/gate.command.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/gate.command.json",
+      "retained_in_project": true,
+      "sha256_before": "df6649492cde87c7cb61356501dda439151673e18150b7def8f55e8a7740a177",
+      "sha256_after": "df6649492cde87c7cb61356501dda439151673e18150b7def8f55e8a7740a177",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/source-scan.stdout.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/source-scan.stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "079d7a6e7af24f954528812b5b07cc485813fcb2f298bffecfcfa59bbee8174f",
+      "sha256_after": "079d7a6e7af24f954528812b5b07cc485813fcb2f298bffecfcfa59bbee8174f",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/source-scan-final.stdout.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/source-scan-final.stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "079d7a6e7af24f954528812b5b07cc485813fcb2f298bffecfcfa59bbee8174f",
+      "sha256_after": "079d7a6e7af24f954528812b5b07cc485813fcb2f298bffecfcfa59bbee8174f",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/ruff.stdout.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/ruff.stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/shell-syntax.stderr.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/shell-syntax.stderr.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/static-checks.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/static-checks.json",
+      "retained_in_project": true,
+      "sha256_before": "2ea9eb353d7a33be0a6051b6d828813c2cfea8b0ec5f0273a9dc80cd13e2e987",
+      "sha256_after": "2ea9eb353d7a33be0a6051b6d828813c2cfea8b0ec5f0273a9dc80cd13e2e987",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/pytest.stdout.log",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/pytest.stdout.log",
+      "retained_in_project": true,
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "work/e7-231880168-local-20261025T153411Z/source-scan-final.command.json",
+      "current_path": "labs/B-draft/work/e7-231880168-local-20261025T153411Z/source-scan-final.command.json",
+      "retained_in_project": true,
+      "sha256_before": "ccc4932e319b7065303a1374b30d44c7873295ce2959303492dc182a6679f7c6",
+      "sha256_after": "ccc4932e319b7065303a1374b30d44c7873295ce2959303492dc182a6679f7c6",
+      "unchanged": true
+    },
+    {
+      "previous_course_path": "templates/候选来源记录.json",
+      "current_path": "templates/候选来源记录.json",
+      "retained_in_project": true,
+      "sha256_before": "58a23e6916ca974420e02cb0622f19e2d4fce492854d14a81f7bb6ef6b31b06a",
+      "sha256_after": "a99d373190e80b0eb6ec3094f30f7e8b952ea57b644bb1733a662a9f8bd5daa0",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "templates/验收记录.csv",
+      "current_path": "templates/验收记录.csv",
+      "retained_in_project": true,
+      "sha256_before": "5e0773d4bb63425cf15887163445ba2b1aa46d5c7d6702cfdfc865ba2c39debb",
+      "sha256_after": "e7c13a8ca95ad5f57514876510f7780e33c9bb03118e068e8f481b9ef1c22c7a",
+      "unchanged": false
+    },
+    {
+      "previous_course_path": "templates/实验报告.md",
+      "current_path": "templates/实验报告.md",
+      "retained_in_project": true,
+      "sha256_before": "3e582841028524543cd4f164f7c8468211148c1b5094f517e7d796b22b45ca10",
+      "sha256_after": "85e13ccc788a758e780f1c36a01327f054d1b8cb0ff5f4ff6edc000a1d0cc3a5",
+      "unchanged": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "student_id": "241830086",
+  "stage": "E6",
+  "source_candidate_path": "work/candidate/Dockerfile",
+  "source_candidate_sha256": "0a03a931d3255de73a6a4eea777eb4017848817363e196dc0a00992412e09295",
+  "adapted_candidate_path": "work/candidate-e6-241830086/Dockerfile",
+  "adapted_candidate_sha256": "33aa956254b0615a333f341a0105ac57fb837214ba9a4fc769899912431c6765",
+  "date": "2026-10-21",
+  "change": "Reinserted the original :3.13-slim tag in the mirrored FROM reference so the E6 candidate identity check matches fixtures/draft/Dockerfile.broken.",
+  "unchanged": [
+    "base image registry",
+    "base image digest",
+    "dependency installation",
+    "WORKDIR, COPY, RUN make and CMD instructions"
+  ],
+  "reason": "The E5 handoff candidate omitted the tag while retaining the same registry and digest, so the strict E6 precheck correctly rejected it as a changed base image tag."
+}

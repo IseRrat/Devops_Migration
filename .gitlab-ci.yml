@@ -1,0 +1,27 @@
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS'
+      when: never
+    - if: '$CI_COMMIT_BRANCH'
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+    - when: never
+
+stages:
+  - verify
+
+e7_b_quality_gate:
+  stage: verify
+  tags:
+    - e7-b-shell
+  timeout: 60m
+  variables:
+    GIT_DEPTH: "0"
+  script:
+    - cd "$CI_PROJECT_DIR/labs/B-draft"
+    - bash scripts/run_e7_gitlab.sh
+  artifacts:
+    when: always
+    expire_in: 14 days
+    paths:
+      - labs/B-draft/work/ci-e7-*/

@@ -1,0 +1,15 @@
+# Runtime-owned local directories; not project sources.
+.agents/
+.codex/
+.aws/
+# Secrets and generated local data.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+.pytest_cache/
+.venv/
+labs/B-draft/work/
+# History evidence is staged explicitly using the migration path list.

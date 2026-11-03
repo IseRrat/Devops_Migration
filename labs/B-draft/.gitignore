@@ -1,0 +1,20 @@
+# 密钥与本地配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 运行证据：按需挑选后用 git add -f 提交
+work/
+__pycache__/
+.pytest_cache/
+
+# E7 acceptance table is a deliverable, not generated CSV data.
+!docs/E7_验收记录_231880168.csv
+
+# Deliverable CSV files; ordinary generated work remains ignored.
+!docs/*.csv
+
+# Local migration leftovers are for manual review, not CI input.
+
