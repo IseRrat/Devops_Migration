@@ -39,4 +39,47 @@ class ProfileTests(unittest.TestCase):
         (self.p/'Makefile').write_text((self.p/'Makefile').read_text().replace('-O0','-include unknown.h'))
         with self.assertRaisesRegex(ValueError,'UNSUPPORTED_FLAGS'):scan(self.p)
 
+
+class StudentE8B241880446(unittest.TestCase):
+    """Adapt the E8 B recipe example, then test a real redundant-only report."""
+
+    def test_redundant_only_preserves_extra_header_and_recipe_bytes(self):
+        from lab import run
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            project = root / 'sample'
+            fixture(project)
+            makefile = project / 'Makefile'
+            original = makefile.read_bytes()
+            diff, plan = patch(project, scan(project))
+            candidate = root / 'candidate.patch'
+            candidate.write_text(diff)
+            run(['git', 'apply', str(candidate.resolve())], project)
+            recipes = lambda data: [
+                line for line in data.splitlines() if line.startswith(b'\t')]
+            self.assertEqual(recipes(original), recipes(makefile.read_bytes()))
+            self.assertIn(b'main.o: main.c unused.h config.h', makefile.read_bytes())
+            self.assertEqual(plan[0]['style'], 'direct')
+
+            # Extra input beyond the handbook example: two redundant headers.
+            makefile.write_text(makefile.read_text().replace(
+                'main.o: main.c unused.h config.h',
+                'main.o: main.c unused.h config.h extra.h'))
+            commit(project, 'E8 B: redundant-only declaration fixture')
+            report = scan(project)
+            self.assertEqual(
+                {(f['type'], f['target'], f['dependency'])
+                 for f in report['findings']},
+                {('REDUNDANT', 'main.o', 'unused.h'),
+                 ('REDUNDANT', 'main.o', 'extra.h')})
+
+            before = makefile.read_bytes()
+            no_diff, no_edits = patch(project, report)
+            self.assertEqual(no_diff, '')
+            self.assertEqual(no_edits, [])
+            self.assertEqual(makefile.read_bytes(), before)
+            self.assertEqual(recipes(original), recipes(before))
+            self.assertIn(b'unused.h config.h extra.h', before)
+
+
 if __name__=='__main__':unittest.main()
