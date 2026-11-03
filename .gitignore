@@ -12,4 +12,5 @@ __pycache__/
 .pytest_cache/
 .venv/
 labs/B-draft/work/
+/work/
 # History evidence is staged explicitly using the migration path list.
