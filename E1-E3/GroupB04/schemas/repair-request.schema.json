@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://git.nju.edu.cn/IseRrat/devops/devops_product/GroupB04/schemas/repair-request.schema.json",
+  "title": "REPAIR job request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "job_type", "trace_id", "repository", "missing_report", "makefile_path", "build_command", "verify_command", "max_candidates", "timeout_seconds"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "job_type": {"const": "REPAIR"},
+    "trace_id": {"type": "string", "minLength": 1},
+    "repository": {"$ref": "#/$defs/repository"},
+    "missing_report": {"$ref": "#/$defs/missingReport"},
+    "makefile_path": {"$ref": "#/$defs/repositoryPath"},
+    "build_command": {"type": "string", "minLength": 1},
+    "verify_command": {"type": "string", "minLength": 1},
+    "expected_stdout": {"type": "string"},
+    "max_candidates": {"type": "integer", "minimum": 1, "maximum": 30},
+    "timeout_seconds": {"type": "integer", "minimum": 1, "maximum": 1800}
+  },
+  "$defs": {
+    "commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "repositoryPath": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!/)(?![A-Za-z]:)(?!.*\\\\)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\r\\n]+$"
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "commit"],
+      "properties": {
+        "url": {"type": "string", "format": "uri", "pattern": "^https://"},
+        "commit": {"$ref": "#/$defs/commit"}
+      }
+    },
+    "missingReport": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["uri", "sha256", "report_commit", "finding_type"],
+      "properties": {
+        "uri": {"type": "string", "pattern": "^artifact://"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "report_commit": {"$ref": "#/$defs/commit"},
+        "finding_type": {"const": "MISSING"}
+      }
+    }
+  }
+}

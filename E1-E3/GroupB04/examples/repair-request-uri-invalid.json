@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "job_type": "REPAIR",
+  "trace_id": "trace-b3-e2-repair-uri",
+  "repository": {"url": "https://git.nju.edu.cn/IseRrat/devops.git", "commit": "b7de0ddb5e27bed03f7c26bea5f7df75cc1eb231"},
+  "missing_report": {"uri": "https://example.invalid/findings.json", "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "report_commit": "b7de0ddb5e27bed03f7c26bea5f7df75cc1eb231", "finding_type": "MISSING"},
+  "makefile_path": "Makefile",
+  "build_command": "make",
+  "verify_command": "./app",
+  "max_candidates": 10,
+  "timeout_seconds": 1800
+}

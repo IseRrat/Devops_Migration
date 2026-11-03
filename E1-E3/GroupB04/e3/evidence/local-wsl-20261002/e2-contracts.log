@@ -1,0 +1,34 @@
+PASS Draft 2020-12 schema: artifact.schema.json
+PASS Draft 2020-12 schema: draft-output.schema.json
+PASS Draft 2020-12 schema: draft-request.schema.json
+PASS Draft 2020-12 schema: job.schema.json
+PASS Draft 2020-12 schema: repair-output.schema.json
+PASS Draft 2020-12 schema: repair-report.schema.json
+PASS Draft 2020-12 schema: repair-request.schema.json
+PASS job-succeeded-valid.json: schema expected True, got True; semantic expected None, got None
+PASS job-failed-valid.json: schema expected True, got True; semantic expected None, got None
+PASS job-succeeded-with-error-invalid.json: schema expected False, got False; semantic expected JOB_TERMINAL_CONFLICT, got JOB_TERMINAL_CONFLICT
+PASS job-running-with-output-invalid.json: schema expected False, got False; semantic expected JOB_TERMINAL_CONFLICT, got JOB_TERMINAL_CONFLICT
+PASS job-cancelled-without-error-invalid.json: schema expected False, got False; semantic expected JOB_TERMINAL_CONFLICT, got JOB_TERMINAL_CONFLICT
+PASS job-cancelled-valid.json: schema expected True, got True; semantic expected None, got None
+PASS draft-request-valid.json: schema expected True, got True; semantic expected None, got None
+PASS draft-request-job-type-invalid.json: schema expected False, got False; semantic expected VALIDATION_1200, got VALIDATION_1200
+PASS draft-request-commit-invalid.json: schema expected False, got False; semantic expected VALIDATION_1201, got VALIDATION_1201
+PASS draft-request-context-invalid.json: schema expected False, got False; semantic expected VALIDATION_1202, got VALIDATION_1202
+PASS draft-request-url-invalid.json: schema expected False, got False; semantic expected VALIDATION_1201, got VALIDATION_1201
+PASS draft-request-windows-path-invalid.json: schema expected False, got False; semantic expected VALIDATION_1202, got VALIDATION_1202
+PASS draft-request-bool-iterations-invalid.json: schema expected False, got False; semantic expected VALIDATION_1204, got VALIDATION_1204
+PASS draft-output-valid.json: schema expected True, got True; semantic expected None, got None
+PASS draft-output-verify-log-invalid.json: schema expected False, got False; semantic expected DRAFT_OUTPUT_INVALID, got DRAFT_OUTPUT_INVALID
+PASS repair-request-valid.json: schema expected True, got True; semantic expected None, got None
+PASS repair-request-job-type-invalid.json: schema expected False, got False; semantic expected VALIDATION_1300, got VALIDATION_1300
+PASS repair-request-redundant-invalid.json: schema expected False, got False; semantic expected VALIDATION_1302, got VALIDATION_1302
+PASS repair-request-commit-invalid.json: schema expected True, got True; semantic expected VALIDATION_1302, got VALIDATION_1302
+PASS repair-request-uri-invalid.json: schema expected False, got False; semantic expected VALIDATION_1302, got VALIDATION_1302
+PASS repair-output-valid.json: schema expected True, got True; semantic expected None, got None
+PASS repair-output-recheck-invalid.json: schema expected False, got False; semantic expected REPAIR_OUTPUT_INVALID, got REPAIR_OUTPUT_INVALID
+PASS repair-report-valid.json: schema expected True, got True; semantic expected None, got None
+PASS repair-report-malformed-candidate-invalid.json: schema expected False, got False; semantic expected REPAIR_REPORT_INVALID, got REPAIR_REPORT_INVALID
+PASS repair-report-two-accepted-invalid.json: schema expected False, got False; semantic expected REPAIR_REPORT_INVALID, got REPAIR_REPORT_INVALID
+PASS job-succeeded-valid.json: DRAFT output schema
+{"schemas": 7, "examples": 25, "failures": []}

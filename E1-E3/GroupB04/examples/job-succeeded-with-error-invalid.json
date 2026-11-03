@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "job_id": "job-draft-example-003",
+  "job_type": "DRAFT",
+  "trace_id": "trace-b3-e2-003",
+  "status": "SUCCEEDED",
+  "output": {"result": "contradictory"},
+  "error": {"code": "EXEC_4002", "message": "a successful job cannot carry an error"}
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "job_type": "FULL_CHECK",
+  "trace_id": "trace-b3-e2-draft-type",
+  "repository": {"url": "https://git.nju.edu.cn/IseRrat/devops.git", "commit": "b7de0ddb5e27bed03f7c26bea5f7df75cc1eb231"},
+  "context_files": ["README.md"],
+  "build_command": "python -m pip install .",
+  "verify_command": "python -c \"print('tinygrad-ok')\"",
+  "max_iterations": 1,
+  "timeout_seconds": 60
+}

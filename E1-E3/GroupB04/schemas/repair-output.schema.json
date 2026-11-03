@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://git.nju.edu.cn/IseRrat/devops/devops_product/GroupB04/schemas/repair-output.schema.json",
+  "title": "REPAIR successful output payload",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["repository_commit", "patch", "repair_report", "build_log", "verify_log", "recheck_report", "candidate_summary"],
+  "properties": {
+    "repository_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "patch": {"$ref": "#/$defs/artifact"},
+    "repair_report": {"$ref": "#/$defs/artifact"},
+    "build_log": {"$ref": "#/$defs/artifact"},
+    "verify_log": {"$ref": "#/$defs/artifact"},
+    "recheck_report": {"$ref": "#/$defs/artifact"},
+    "candidate_summary": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["candidate_id", "result", "reason"],
+        "properties": {
+          "candidate_id": {"type": "string", "minLength": 1},
+          "result": {"enum": ["ACCEPTED", "REJECTED"]},
+          "reason": {"type": "string", "minLength": 1}
+        }
+      },
+      "contains": {
+        "type": "object",
+        "properties": {"result": {"const": "ACCEPTED"}},
+        "required": ["result"]
+      },
+      "minContains": 1,
+      "maxContains": 1
+    }
+  },
+  "$defs": {
+    "artifact": {"$ref": "https://git.nju.edu.cn/IseRrat/devops/devops_product/schemas/artifact.schema.json"}
+  }
+}

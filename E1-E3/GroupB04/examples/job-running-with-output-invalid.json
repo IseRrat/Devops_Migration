@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "job_id": "job-draft-running-001",
+  "job_type": "DRAFT",
+  "trace_id": "trace-running-output",
+  "status": "RUNNING",
+  "output": {}
+}

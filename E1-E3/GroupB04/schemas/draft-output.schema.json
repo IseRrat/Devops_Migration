@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://git.nju.edu.cn/IseRrat/devops/devops_product/GroupB04/schemas/draft-output.schema.json",
+  "title": "DRAFT successful output payload",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["repository_commit", "dockerfile", "image", "build_log", "verify_log", "iterations"],
+  "properties": {
+    "repository_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "dockerfile": {"$ref": "#/$defs/artifact"},
+    "image": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reference", "image_id", "platform"],
+      "properties": {
+        "reference": {"type": "string", "minLength": 1},
+        "image_id": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+        "digest": {"oneOf": [{"type": "null"}, {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}]},
+        "platform": {"const": "linux/amd64"}
+      }
+    },
+    "build_log": {"$ref": "#/$defs/artifact"},
+    "verify_log": {"$ref": "#/$defs/artifact"},
+    "iterations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["number", "dockerfile_uri", "result", "selection_reason"],
+        "properties": {
+          "number": {"type": "integer", "minimum": 1},
+          "dockerfile_uri": {"type": "string", "pattern": "^artifact://"},
+          "result": {"enum": ["ACCEPTED", "REJECTED"]},
+          "selection_reason": {"type": "string", "minLength": 1}
+        }
+      },
+      "contains": {
+        "type": "object",
+        "properties": {"result": {"const": "ACCEPTED"}},
+        "required": ["result"]
+      },
+      "minContains": 1,
+      "maxContains": 1
+    }
+  },
+  "$defs": {
+    "artifact": {"$ref": "https://git.nju.edu.cn/IseRrat/devops/devops_product/schemas/artifact.schema.json"}
+  }
+}

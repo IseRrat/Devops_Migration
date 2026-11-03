@@ -1,0 +1,15 @@
+{
+  "static": {
+    "fixed_report": "MISSING main.o -> config.h",
+    "reference_patch": "expected accepted",
+    "invalid_candidate": "expected rejected: missing.h"
+  },
+  "dynamic": {
+    "toolchain": "PASSED",
+    "source_commit": "97db8f5ddb86f2783f4dcc13e45ac956c9732055",
+    "unrepaired_incremental": "1",
+    "repaired_incremental": "3",
+    "invalid_candidate": "REJECTED",
+    "recovery": "PASSED"
+  }
+}

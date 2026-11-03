@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "job_id": "job-draft-example-002",
+  "job_type": "DRAFT",
+  "trace_id": "trace-b3-e2-002",
+  "status": "FAILED",
+  "error": {"code": "ENV_3002", "message": "image build failed"}
+}

@@ -1,0 +1,12 @@
+{
+  "repository_commit": "b7de0ddb5e27bed03f7c26bea5f7df75cc1eb231",
+  "patch": {"uri": "artifact://groupb04/job-repair-001/reference.patch", "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+  "repair_report": {"uri": "artifact://groupb04/job-repair-001/report.json", "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"},
+  "build_log": {"uri": "artifact://groupb04/job-repair-001/build.log", "sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"},
+  "verify_log": {"uri": "artifact://groupb04/job-repair-001/verify.log", "sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"},
+  "recheck_report": {"uri": "artifact://groupb04/job-repair-001/recheck.json", "sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"},
+  "candidate_summary": [
+    {"candidate_id": "candidate-1", "result": "REJECTED", "reason": "build failed because missing.h does not exist"},
+    {"candidate_id": "candidate-2", "result": "ACCEPTED", "reason": "incremental rebuild and recheck passed"}
+  ]
+}

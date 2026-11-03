@@ -1,0 +1,12 @@
+{
+  "static": {
+    "broken_candidate": "expected failure: toolchain absent",
+    "reference_candidate": "static requirements passed",
+    "b1_dockerfile": "multi-stage and verification command present"
+  },
+  "dynamic": {
+    "toolchain": "PASSED",
+    "verify_stdout": "hello E3",
+    "cleanup": "PASSED"
+  }
+}

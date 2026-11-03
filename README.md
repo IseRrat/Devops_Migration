@@ -1,11 +1,13 @@
-# B04 E5–E7：DRAFT 实验
+# B04 DevOps 课程作业
 
-本分支只保留 B 组 E5–E7 实验。课程资料在仓库根目录，B 轨道实现、样例、测试、候选和运行证据全部在 `labs/B-draft/`；不再依赖 tinygrad、E2–E4 或其他组代码。
+本仓库汇集 B 组阶段作业：E2/E3 历史产物归档在 `E1-E3/`，E5–E7 的 DRAFT 实验在 `labs/B-draft/`。目录、验证入口和来源说明分别见下表。tinygrad 目标项目本体与旧 E4 根工程未迁入。
 
 ## 阅读顺序
 
 |文件或目录|用途|
 |---|---|
+|[E1-E3/](E1-E3/README.md)|E2/E3 接口、公共契约、过程记录、验证样例与历史证据|
+|[E1-E3/GroupB04/README.md](E1-E3/GroupB04/README.md)|B1/B2/B3 交付索引及新路径下的验证命令|
 |[docs/00_开始与目录.md](docs/00_开始与目录.md)|B组任务、结构和路径约定|
 |[docs/01_云主机环境与上传.md](docs/01_云主机环境与上传.md)|上传、工具和Docker检查|
 |[docs/03_B轨道操作指南.md](docs/03_B轨道操作指南.md)|E5–E7命令与预期结果|
@@ -35,10 +37,10 @@ python3 scripts/lab_cloud.py gate --image "$IMAGE" --candidate fixtures/ci-candi
 
 所有Docker构建上下文为labs/B-draft，不能在仓库根误用外部文件。Makefile、Compose、依赖锁与.env.example也位于此实验目录。
 
-## 当前证据
+## E5–E7 历史证据
 
-E5王佳宝（241880446）、E6史益瑄（241830086）的原报告、候选、来源和运行日志均保留。E7高吟曦（231880168）已有26项服务测试、完整gate及正常GitLab Job 688402历史成功证据；分支保护、失败拒绝、恢复与最终合并按报告中实际状态填写。旧Job不代表本次独立布局的CI已通过。
+E5 王佳宝（241880446）、E6 史益瑄（241830086）、E7 高吟曦（231880168）的报告与已跟踪候选保留在 `labs/B-draft/`。历史测试、gate、Job 和合并状态按原报告记录。原 B-draft 分支没有跟踪 `labs/B-draft/work/`，本次迁移未上传其中的原始运行日志；旧 featureB 仍保存部分 E5/E6 证据，后续另行补迁。历史 Job 不代表新 GitHub 仓库的 CI 已通过。
 
-当前根.gitlab-ci.yml只运行e7_b_quality_gate，使用e7-b-shell Runner，证据来自labs/B-draft/work/ci-e7-*/。GitHub样例位于ci/github，仅供参考，不自动切换平台。
+根 `.gitlab-ci.yml` 是保留的旧 E7 配置；GitHub 样例位于 `ci/github/`，目前没有启用为 GitHub Actions。E8–E10 实验代码、workflow 和个人报告目录尚待按新手册导入。
 
-本次独立分支整理、新旧路径、仓库外备份及提交注意见 [docs/目录重建说明.md](docs/目录重建说明.md)。未执行commit、push或远程配置变更。
+旧 B-draft 分支的目录整理过程见 [docs/目录重建说明.md](docs/目录重建说明.md)，其中状态描述以原记录日期为准。本仓库以独立 main 历史接收阶段文件，来源 SHA 记录在迁移提交和 `E1-E3/README.md` 中。

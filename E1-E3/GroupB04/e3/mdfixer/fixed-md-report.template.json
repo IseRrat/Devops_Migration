@@ -1,0 +1,16 @@
+{
+  "provenance": "INSTRUCTOR_ORACLE",
+  "commit": "${SOURCE_COMMIT}",
+  "findings": [
+    {
+      "type": "MISSING",
+      "target": "main.o",
+      "dependency": "config.h",
+      "location": {
+        "source": {"file": "main.c", "line": 2, "text": "#include \"config.h\""},
+        "declaration": {"file": "Makefile", "line": 6, "text": "main.o: main.c"}
+      },
+      "evidence": "main.c includes config.h, but Makefile omits config.h from main.o prerequisites"
+    }
+  ]
+}

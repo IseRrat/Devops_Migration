@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://git.nju.edu.cn/IseRrat/devops/devops_product/GroupB04/schemas/repair-report.schema.json",
+  "title": "MDFixer repair report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "source_commit", "finding", "accepted_candidate", "candidates", "verification"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "source_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "finding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "target", "dependency"],
+      "properties": {
+        "type": {"const": "MISSING"},
+        "target": {"type": "string", "minLength": 1},
+        "dependency": {"type": "string", "minLength": 1}
+      }
+    },
+    "accepted_candidate": {"type": "string", "minLength": 1},
+    "candidates": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["candidate_id", "result", "reason"],
+        "properties": {
+          "candidate_id": {"type": "string", "minLength": 1},
+          "result": {"enum": ["ACCEPTED", "REJECTED"]},
+          "reason": {"type": "string", "minLength": 1}
+        }
+      },
+      "contains": {
+        "type": "object",
+        "properties": {"result": {"const": "ACCEPTED"}},
+        "required": ["result"]
+      },
+      "minContains": 1,
+      "maxContains": 1
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["patch_applied", "build_passed", "functional_test_passed", "recheck_passed"],
+      "properties": {
+        "patch_applied": {"const": true},
+        "build_passed": {"const": true},
+        "functional_test_passed": {"const": true},
+        "recheck_passed": {"const": true}
+      }
+    }
+  }
+}

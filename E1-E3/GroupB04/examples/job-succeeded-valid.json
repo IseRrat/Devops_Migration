@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "job_id": "job-draft-example-001",
+  "job_type": "DRAFT",
+  "trace_id": "trace-b3-e2-001",
+  "status": "SUCCEEDED",
+  "output": {
+    "repository_commit": "b7de0ddb5e27bed03f7c26bea5f7df75cc1eb231",
+    "dockerfile": {"uri": "artifact://groupb04/job-draft-001/Dockerfile", "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+    "image": {
+      "reference": "nju-devops/groupb04/tinygrad:b7de0ddb",
+      "image_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "digest": null,
+      "platform": "linux/amd64"
+    },
+    "build_log": {"uri": "artifact://groupb04/job-draft-001/build.log", "sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"},
+    "verify_log": {"uri": "artifact://groupb04/job-draft-001/verify.log", "sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"},
+    "iterations": [
+      {"number": 1, "dockerfile_uri": "artifact://groupb04/job-draft-001/candidate-1.Dockerfile", "result": "ACCEPTED", "selection_reason": "build and functional verification passed"}
+    ]
+  }
+}

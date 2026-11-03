@@ -1,0 +1,12 @@
+{
+  "pipeline": "335666",
+  "job": "658805",
+  "fixture_sha256": {
+    "Dockerfile.broken": "b163b7ab94b5c640d183cbcd01fd9bf6f7c9ee68d9b3cb59e2097bb27f337764",
+    "Dockerfile.reference": "3575e975d293ebe472dbfeaa0ce6046d72058185ee8ce51aaf5f02eec217a911"
+  },
+  "broken_candidate": "EXPECTED_FAILURE_127",
+  "reference_image_id": "sha256:1d39b81e91d4c4584cd0d80178608b76dfcfaed6e43afe990236223f714cd045",
+  "reference_stdout": "hello E3",
+  "local_wsl": "CONTRACT_DRAFT_MDFIXER_PASSED"
+}

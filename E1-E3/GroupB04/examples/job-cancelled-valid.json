@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "job_id": "job-draft-cancelled-002",
+  "job_type": "DRAFT",
+  "trace_id": "trace-cancelled-valid",
+  "status": "CANCELLED",
+  "error": {"code": "CANCEL_4001", "message": "cancelled by caller"}
+}

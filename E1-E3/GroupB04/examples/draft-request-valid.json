@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "job_type": "DRAFT",
+  "trace_id": "trace-b3-e2-draft-valid",
+  "repository": {
+    "url": "https://git.nju.edu.cn/IseRrat/devops.git",
+    "commit": "b7de0ddb5e27bed03f7c26bea5f7df75cc1eb231"
+  },
+  "context_files": ["README.md", "pyproject.toml"],
+  "build_command": "python -m pip install .",
+  "verify_command": "python -c \"from tinygrad import Tensor; assert Tensor([1, 2, 3]).shape == (3,); print('tinygrad-ok')\"",
+  "expected_stdout": "tinygrad-ok",
+  "max_iterations": 30,
+  "timeout_seconds": 1800
+}

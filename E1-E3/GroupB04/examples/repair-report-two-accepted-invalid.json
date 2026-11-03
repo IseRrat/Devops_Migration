@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "source_commit": "b7de0ddb5e27bed03f7c26bea5f7df75cc1eb231",
+  "finding": {"type": "MISSING", "target": "main.o", "dependency": "config.h"},
+  "accepted_candidate": "candidate-1",
+  "candidates": [
+    {"candidate_id": "candidate-1", "result": "ACCEPTED", "reason": "first accepted"},
+    {"candidate_id": "candidate-2", "result": "ACCEPTED", "reason": "second accepted"}
+  ],
+  "verification": {
+    "patch_applied": true,
+    "build_passed": true,
+    "functional_test_passed": true,
+    "recheck_passed": true
+  }
+}

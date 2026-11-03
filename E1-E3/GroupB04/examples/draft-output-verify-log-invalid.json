@@ -1,0 +1,13 @@
+{
+  "repository_commit": "b7de0ddb5e27bed03f7c26bea5f7df75cc1eb231",
+  "dockerfile": {"uri": "artifact://groupb04/job-draft-002/Dockerfile", "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+  "image": {
+    "reference": "nju-devops/groupb04/tinygrad:b7de0ddb",
+    "image_id": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "platform": "linux/amd64"
+  },
+  "build_log": {"uri": "artifact://groupb04/job-draft-002/build.log", "sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"},
+  "iterations": [
+    {"number": 1, "dockerfile_uri": "artifact://groupb04/job-draft-002/candidate-1.Dockerfile", "result": "ACCEPTED", "selection_reason": "invalid example omits verify_log"}
+  ]
+}

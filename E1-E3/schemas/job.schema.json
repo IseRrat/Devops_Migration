@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://git.nju.edu.cn/IseRrat/devops/devops_product/schemas/job.schema.json",
+  "title": "Shared asynchronous job response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "job_id", "job_type", "trace_id", "status"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "job_id": {"type": "string", "minLength": 1},
+    "job_type": {"enum": ["DRAFT", "FULL_CHECK", "INCREMENTAL_CHECK", "REPAIR"]},
+    "trace_id": {"type": "string", "minLength": 1},
+    "status": {"enum": ["QUEUED", "RUNNING", "SUCCEEDED", "FAILED", "TIMED_OUT", "CANCELLED"]},
+    "input": {"type": "object"},
+    "output": {"type": "object"},
+    "error": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "message"],
+      "properties": {
+        "code": {"type": "string", "pattern": "^(VALIDATION|ENV|EXEC|ANALYSIS|CANCEL)_[0-9]{4}$"},
+        "message": {"type": "string", "minLength": 1},
+        "field": {"type": "string", "minLength": 1}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"status": {"enum": ["QUEUED", "RUNNING"]}}, "required": ["status"]},
+      "then": {"not": {"anyOf": [{"required": ["output"]}, {"required": ["error"]}]}}
+    },
+    {
+      "if": {"properties": {"status": {"const": "SUCCEEDED"}}, "required": ["status"]},
+      "then": {"required": ["output"], "not": {"required": ["error"]}}
+    },
+    {
+      "if": {"properties": {"status": {"enum": ["FAILED", "TIMED_OUT", "CANCELLED"]}}, "required": ["status"]},
+      "then": {"required": ["error"], "not": {"required": ["output"]}}
+    }
+  ]
+}

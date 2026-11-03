@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "source_commit": "b7de0ddb5e27bed03f7c26bea5f7df75cc1eb231",
+  "finding": {"type": "MISSING", "target": "main.o", "dependency": "config.h"},
+  "accepted_candidate": "candidate-1",
+  "candidates": [{"candidate_id": "candidate-1", "result": "ACCEPTED"}],
+  "verification": {
+    "patch_applied": "yes",
+    "build_passed": "yes",
+    "functional_test_passed": "yes",
+    "recheck_passed": "yes"
+  }
+}

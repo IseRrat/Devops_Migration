@@ -1,0 +1,16 @@
+FROM m.daocloud.io/docker.io/library/python:3.12-slim
+
+RUN if [ -f /etc/apt/sources.list.d/debian.sources ]; then \
+      sed -i 's|http://deb.debian.org|https://mirrors.ustc.edu.cn|g; s|https://deb.debian.org|https://mirrors.ustc.edu.cn|g' /etc/apt/sources.list.d/debian.sources; \
+    else \
+      sed -i 's|http://deb.debian.org|https://mirrors.ustc.edu.cn|g; s|https://deb.debian.org|https://mirrors.ustc.edu.cn|g' /etc/apt/sources.list; \
+    fi \
+    && apt-get update \
+    && apt-get install -y --no-install-recommends gcc make libc6-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /work
+COPY main.c Makefile ./
+RUN make
+
+CMD ["./hello"]

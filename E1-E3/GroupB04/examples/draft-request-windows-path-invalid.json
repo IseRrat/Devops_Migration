@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "job_type": "DRAFT",
+  "trace_id": "trace-invalid-windows-path",
+  "repository": {"url": "https://git.nju.edu.cn/IseRrat/devops.git", "commit": "b7de0ddb5e27bed03f7c26bea5f7df75cc1eb231"},
+  "context_files": ["C:\\Windows\\secret.txt"],
+  "build_command": "make",
+  "verify_command": "./app",
+  "max_iterations": 3,
+  "timeout_seconds": 60
+}

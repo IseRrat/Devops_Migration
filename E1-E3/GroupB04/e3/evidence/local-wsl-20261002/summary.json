@@ -1,0 +1,33 @@
+{
+  "e2-contracts": {
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "devops_product/GroupB04/validate_e2_contracts.py"
+    ]
+  },
+  "e3-draft": {
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "devops_product/GroupB04/e3/draft/validate_draft_fixture.py",
+      "--require-toolchain"
+    ]
+  },
+  "e3-mdfixer": {
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "devops_product/GroupB04/e3/mdfixer/validate_mdfixer_fixture.py",
+      "--require-toolchain"
+    ]
+  },
+  "e3-evidence": {
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "devops_product/GroupB04/e3/validate_evidence.py"
+    ]
+  },
+  "failures": []
+}
