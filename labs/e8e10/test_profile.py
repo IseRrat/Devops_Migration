@@ -136,4 +136,68 @@ class StudentE9B241880446(unittest.TestCase):
             self.assertEqual(recipes(before), recipes(makefile.read_bytes()))
 
 
+class StudentE10B241880446(unittest.TestCase):
+    """Handbook build-failure example and a buildable incomplete patch."""
+
+    def test_build_failure_keeps_original_makefile(self):
+        from lab import validate
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            p = root / 'sample'
+            fixture(p)
+            diff, plan = patch(p, scan(p))
+            candidate = root / 'candidate.patch'
+            candidate.write_text(diff)
+            before = (p / 'Makefile').read_bytes()
+            (p / 'main.c').write_text('this is invalid C;\n')
+            result = validate(p, candidate, root / 'validation')
+            self.assertTrue(result['checks']['patch_applies'])
+            self.assertFalse(result['checks'].get('build', False))
+            self.assertIn('COMMAND_FAILED', result['error'])
+            self.assertFalse(result['accepted'])
+            self.assertTrue(result['rollback'])
+            self.assertTrue(result['source_unchanged'])
+            self.assertEqual((p / 'Makefile').read_bytes(), before)
+
+    def test_buildable_patch_with_remaining_missing_edge_is_rejected(self):
+        import difflib
+        from lab import validate
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            p = root / 'sample'
+            fixture(p)
+            (p / 'helper.c').write_text(
+                '#include "extra.h"\nint helper(void){return EXTRA;}\n')
+            commit(p, 'E10 B: helper also uses extra.h')
+            report = scan(p)
+            self.assertEqual(
+                {(f['target'], f['dependency']) for f in report['findings']
+                 if f['type'] == 'MISSING'},
+                {('main.o', 'config.h'), ('helper.o', 'extra.h')})
+            makefile = p / 'Makefile'
+            before = makefile.read_bytes()
+            # Deliberately repair only main.o, leaving helper.o/extra.h missing.
+            partial = before.decode().replace(
+                'main.o: main.c unused.h',
+                'main.o: main.c unused.h config.h')
+            candidate = root / 'incomplete.patch'
+            candidate.write_text(''.join(difflib.unified_diff(
+                before.decode().splitlines(True), partial.splitlines(True),
+                fromfile='a/Makefile', tofile='b/Makefile')))
+            result = validate(p, candidate, root / 'validation')
+            self.assertEqual(result['checks'], {
+                'patch_applies': True, 'build': True, 'test': True,
+                'header_change': True, 'no_missing': False})
+            self.assertIsNone(result['error'])
+            self.assertFalse(result['accepted'])
+            self.assertTrue(result['rollback'])
+            self.assertTrue(result['source_unchanged'])
+            self.assertEqual(makefile.read_bytes(), before)
+            recheck = json.loads((root / 'validation/recheck.json').read_text())
+            self.assertEqual(
+                {(f['target'], f['dependency']) for f in recheck['findings']
+                 if f['type'] == 'MISSING'},
+                {('helper.o', 'extra.h')})
+
+
 if __name__=='__main__':unittest.main()
