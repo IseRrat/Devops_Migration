@@ -13,3 +13,13 @@
 实际验证：work/e8-B-manual.m3Z5dh 与 work/e8-B-manual.Tckga8 各 6 份步骤日志退出 0；报告精确包含 MISSING config.h 与 REDUNDANT unused.h；生成候选不修改原项目；错误 commit 被 STALE_REPORT 拒绝且源字节相同。容器 unittest discover 共 8 项通过，日志 work/unit-tests-20261103-200915.log，退出 0。
 
 范围限制：本次只执行个人 E8。未把 git apply --check 当作完整构建验证；未声称已经完成个人 E9/E10 或跨组远程联调。后续 GitHub Actions 的通用多阶段门禁与本人的逐步实验分开记录，以对应实际 headSha、run.json 和 artifact 为准。
+
+## E9 补记（2026-11-04）
+
+工具：OpenAI Codex。输入为用户指定的 E9 B 手册、07、08、现有个人分支和服务器环境。用户要求只按手册操作，其他成员目录不动，个人成果待验收后再合并。
+
+参考来源：课程 fixture/scan/patch 及 E9 第 0–6 步；新增第一项测试参考 08 第 2D。Codex 根据 E9 第 7 步列出的共享变量影响分析，增加第二项测试：两个目标共享 DEPS，断言修改变量后 helper.o 新增冗余 config.h，真实依赖仍只有 helper.c。未修改课程算法，未把课程参考或 AI 生成内容称为本人手写原创算法。
+
+执行与验证：服务器本人目录内生成三种风格证据，检查源字节及副本应用，容器内 10 项测试通过。扩展证据脚本首次漏保留副本提交，scan 读取 HEAD 失败；保留失败日志并在新 OUT 重做通过。真实路径、源码 SHA、内部 SHA 与结果见个人报告。报告和测试由 Codex 协助编辑执行；用户提供学号、苏州校区及任务边界，未虚构人工逐行修改。
+
+范围：完成个人 E9，未执行个人 E10；GitHub Actions 通用阶段不当作个人 E10 证据。按 07 提交个人分支和归档，PR 保持待验收，不自动合并 main。
