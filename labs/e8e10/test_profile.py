@@ -200,4 +200,51 @@ class StudentE10B241880446(unittest.TestCase):
                 {('helper.o', 'extra.h')})
 
 
+class StudentLeaderE9Mixed(unittest.TestCase):
+    def test_mixed_patch_keeps_macro_and_recipes_and_resolves_md(self):
+        from lab import run
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            project = root / 'sample'
+            fixture(project, 'mixed')
+
+            makefile = project / 'Makefile'
+            original = makefile.read_bytes()
+            before_recipes = [
+                line for line in original.splitlines(keepends=True)
+                if line.startswith(b'\t')
+            ]
+            report = scan(project)
+            self.assertIn(
+                {'type': 'MISSING', 'target': 'main.o', 'dependency': 'config.h'},
+                report['findings'],
+            )
+
+            diff, plan = patch(project, report)
+            self.assertEqual(
+                plan,
+                [{'target': 'main.o', 'dependency': 'config.h', 'style': 'mixed'}],
+            )
+            self.assertEqual(makefile.read_bytes(), original)
+
+            candidate = root / 'mixed-candidate.patch'
+            candidate.write_text(diff)
+            run(['git', 'apply', '--check', str(candidate.resolve())], project)
+            run(['git', 'apply', str(candidate.resolve())], project)
+
+            after = makefile.read_bytes()
+            self.assertIn(b'HEADERS = unused.h\n', after)
+            self.assertIn(b'main.o: main.c $(HEADERS) config.h\n', after)
+            after_recipes = [
+                line for line in after.splitlines(keepends=True)
+                if line.startswith(b'\t')
+            ]
+            self.assertEqual(after_recipes, before_recipes)
+            repaired = scan(project)
+            self.assertFalse(any(f['type'] == 'MISSING' for f in repaired['findings']))
+            run(['make', 'app'], project)
+            self.assertEqual(run(['./app'], project).strip(), '1')
+
+
 if __name__=='__main__':unittest.main()
